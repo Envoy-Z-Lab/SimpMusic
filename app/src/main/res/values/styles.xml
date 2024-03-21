@@ -60,25 +60,25 @@
 
     </style>
 
-    <style name="Widget.Theme.SimpMusic.ButtonBar.Fullscreen" parent="">
+    <style name="Widget.Theme.Riff.ButtonBar.Fullscreen" parent="">
         <item name="android:background">@color/black_overlay</item>
         <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
     </style>
 
     <style name="ThemeOverlay.App.BottomSheetDialog" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">
-        <item name="bottomSheetStyle">@style/SimpMusicBlackBottomSheetDialog</item>
+        <item name="bottomSheetStyle">@style/RiffBlackBottomSheetDialog</item>
     </style>
 
-    <style name="SimpMusicBlackBottomSheetDialog" parent="Widget.MaterialComponents.BottomSheet.Modal">
+    <style name="RiffBlackBottomSheetDialog" parent="Widget.MaterialComponents.BottomSheet.Modal">
         <item name="backgroundTint">@color/md_theme_dark_background</item>
     </style>
 
-    <style name="Widget.SimpMusic.AppWidget.Container" parent="android:Widget">
+    <style name="Widget.Riff.AppWidget.Container" parent="android:Widget">
         <item name="android:id">@android:id/background</item>
         <item name="android:background">?android:attr/colorBackground</item>
     </style>
 
-    <style name="Widget.SimpMusic.AppWidget.InnerView" parent="android:Widget">
+    <style name="Widget.Riff.AppWidget.InnerView" parent="android:Widget">
         <item name="android:background">?android:attr/colorBackground</item>
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>

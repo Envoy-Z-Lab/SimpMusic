@@ -42,7 +42,7 @@
     </queries>
 
     <application
-        android:name=".SimpMusicApplication"
+        android:name=".RiffApplication"
         android:allowBackup="true"
         android:appCategory="audio"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -51,7 +51,7 @@
         android:localeConfig="@xml/locale_config"
         android:networkSecurityConfig="@xml/network_security_config"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SimpMusic"
+        android:theme="@style/Theme.Riff"
         android:usesCleartextTraffic="true">
         <receiver
             android:name=".ui.widget.BasicWidget"

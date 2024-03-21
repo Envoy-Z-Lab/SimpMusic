@@ -109,9 +109,9 @@ private fun List<PipedResponse.AudioStream>.toListFormat(): List<PlayerResponse.
 
 /**
  * Special thanks to [z-huang/InnerTune](https://github.com/z-huang/InnerTune)
- * This library is from [z-huang/InnerTune] and I just modified it to comply with SimpMusic
+ * This library is from [z-huang/InnerTune] and I just modified it to comply with Riff
  *
- * Here is the object that can create all request to YouTube Music and Spotify in SimpMusic
+ * Here is the object that can create all request to YouTube Music and Spotify in Riff
  * Using YouTube Internal API, Spotify Web API and Spotify Internal API for get lyrics
  * @author Envoy-Z-Lab
  */
@@ -360,7 +360,7 @@ object YouTube {
 
     /**
      * Execute a custom POST request to YouTube Music
-     * In SimpMusic, I use this function to parsing Home, Playlist, Album data instead using [album], [playlist], [artist] function
+     * In Riff, I use this function to parsing Home, Playlist, Album data instead using [album], [playlist], [artist] function
      * @param browseId the browseId (such as "FEmusic_home", "VL$playlistId", etc.)
      * @param params the params
      * @param continuation the continuation token

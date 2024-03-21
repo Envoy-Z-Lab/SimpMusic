@@ -19,6 +19,6 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "SimpMusic"
+rootProject.name = "Riff"
 include ("app")
 include(":kotlinYtmusicScraper")

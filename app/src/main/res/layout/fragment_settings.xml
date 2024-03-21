@@ -1351,7 +1351,7 @@
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
                         android:id="@+id/tvAuthor"
-                        android:text="@string/envoyz_dev">
+                        android:text="@string/envoyz">
 
                     </TextView>
 

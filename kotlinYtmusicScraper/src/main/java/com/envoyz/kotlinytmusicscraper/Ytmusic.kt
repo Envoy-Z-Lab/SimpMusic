@@ -595,7 +595,7 @@ class Ytmusic {
             parameter("service", "YouTube")
         }
 
-    suspend fun checkForUpdate() = httpClient.get("https://api.github.com/repos/Envoy-Z-Lab/SimpMusic/releases/latest") {
+    suspend fun checkForUpdate() = httpClient.get("https://api.github.com/repos/Envoy-Z-Lab/Riff/releases/latest") {
         contentType(ContentType.Application.Json)
     }
 

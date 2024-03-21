@@ -1,6 +1,6 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="Theme.SimpMusic" parent="Theme.Material3.Light.NoActionBar">
+    <style name="Theme.Riff" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">@color/md_theme_light_primary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
@@ -56,12 +56,12 @@
         <item name="cornerSize">8dp</item>
     </style>
 
-    <style name="ThemeOverlay.SimpMusic.FullscreenContainer" parent="">
+    <style name="ThemeOverlay.Riff.FullscreenContainer" parent="">
         <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
         <item name="fullscreenTextColor">@color/light_blue_A200</item>
     </style>
 
-    <style name="Theme.SimpMusic.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+    <style name="Theme.Riff.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
         <!-- Radius of the outer bound of widgets to make the rounded corners -->
         <item name="appWidgetRadius">16dp</item>
         <!--
@@ -71,7 +71,7 @@
         <item name="appWidgetInnerRadius">8dp</item>
     </style>
 
-    <style name="Theme.SimpMusic.AppWidgetContainer" parent="Theme.SimpMusic.AppWidgetContainerParent">
+    <style name="Theme.Riff.AppWidgetContainer" parent="Theme.Riff.AppWidgetContainerParent">
         <!-- Apply padding to avoid the content of the widget colliding with the rounded corners -->
         <item name="appWidgetPadding">16dp</item>
     </style>

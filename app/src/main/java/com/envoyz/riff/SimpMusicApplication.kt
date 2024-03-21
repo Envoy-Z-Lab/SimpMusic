@@ -13,7 +13,7 @@ import javax.inject.Inject
 
 
 @HiltAndroidApp
-class SimpMusicApplication : Application(), Configuration.Provider {
+class RiffApplication : Application(), Configuration.Provider {
 
     @Inject
     lateinit var workerFactory: HiltWorkerFactory

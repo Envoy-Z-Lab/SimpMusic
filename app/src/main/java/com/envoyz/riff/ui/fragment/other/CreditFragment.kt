@@ -37,14 +37,14 @@ class CreditFragment : Fragment() {
         binding.btGithub.setOnClickListener {
             val urlIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("https://github.com/Envoy-Z-Lab/SimpMusic")
+                Uri.parse("https://github.com/Envoy-Z-Lab/Riff")
             )
             startActivity(urlIntent)
         }
         binding.btIssue.setOnClickListener {
             val urlIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("https://github.com/Envoy-Z-Lab/SimpMusic/issues")
+                Uri.parse("https://github.com/Envoy-Z-Lab/Riff/issues")
             )
             startActivity(urlIntent)
         }
