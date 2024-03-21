@@ -1,5 +1,3 @@
 <br><b>Mới</b>
-* Tạo playlist cá nhân
-* Tải xuống playlist
-* Thêm chức năng xoá cache và dữ liệu
-* Thêm cấu trúc Fastlane
+* Xây dựng ban đầu
+* Dữ liệu được nhập từ maxrev-dev a pro dev | Cảm ơn!!
