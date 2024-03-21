@@ -576,7 +576,7 @@ class Ytmusic {
 
     /***
      * SponsorBlock testing
-     * @author envoyz-dev
+     * @author Envoy-Z-Lab
      */
 
     suspend fun getSkipSegments(videoId: String) =
@@ -595,7 +595,7 @@ class Ytmusic {
             parameter("service", "YouTube")
         }
 
-    suspend fun checkForUpdate() = httpClient.get("https://api.github.com/repos/envoyz-dev/SimpMusic/releases/latest") {
+    suspend fun checkForUpdate() = httpClient.get("https://api.github.com/repos/Envoy-Z-Lab/SimpMusic/releases/latest") {
         contentType(ContentType.Application.Json)
     }
 

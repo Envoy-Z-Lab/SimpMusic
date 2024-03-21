@@ -118,7 +118,7 @@
     <string name="about_us">Sobre nosotros</string>
     <string name="version">Versión</string>
     <string name="github">Github</string>
-    <string name="envoyz_dev">envoyz-dev</string>
+    <string name="envoyz">Ꮛɳѵoყ-Z | Zaid Sultan</string>
     <string name="buy_me_a_coffee">Buy me a coffee</string>
     <string name="paypal">PayPal</string>
     <string name="title">Título</string>
@@ -245,7 +245,7 @@
     <string name="main_lyrics_provider">Proveedor principal de letras</string>
     <string name="log_in_to_Musixmatch">Inicia sesión en Musixmatch</string>
     <string name="only_support_email_and_password_type">Solo admite tipo de correo electrónico y contraseña</string>
-    <string name="musixmatch_login_description">La API de traducción de Musixmatch solo funciona con un usuario que ha iniciado sesión. SimpMusic utilizó la API de desarrollador Musixmatch. Más información, vaya a https://github.com/envoyz-dev/SimpMusic o https://developer.musixmatch.com/</string>
+    <string name="musixmatch_login_description">La API de traducción de Musixmatch solo funciona con un usuario que ha iniciado sesión. SimpMusic utilizó la API de desarrollador Musixmatch. Más información, vaya a https://github.com/Envoy-Z-Lab/SimpMusic o https://developer.musixmatch.com/</string>
     <string name="use_musixmatch_translation">Utilice la traducción de Musixmatch</string>
     <string name="use_musixmatch_translation_description">Habilite la traducción de letras usando Musixmatch. Requerir inicio de sesión en Musixmatch</string>
     <string name="translation_language">Idioma de traducción</string>
@@ -268,7 +268,7 @@
     <string name="suggest">Sugerencia</string>
     <string name="reload">Recargar</string>
     <string name="added_date">Fecha agregada</string>
-    <string name="credit_app">Una aplicación de música sencilla que utiliza YouTube Music como backend \n\nSimpMusic es un proyecto de código abierto para transmitir música desde YouTube y YouTube Music sin anuncios ni seguimiento. SimpMusic ofrece muchas funciones:\n\n - Transmisión de música \n - Letras sincronizadas\n - Personalizar datos\n - etc... \n\nSimpMusic es siempre gratuito y sin anuncios\n\nCompilado con ❤️ de Tuan Minh Nguyen Duc (envoyz-dev)</string>
+    <string name="credit_app">Una aplicación de música sencilla que utiliza YouTube Music como backend \n\nSimpMusic es un proyecto de código abierto para transmitir música desde YouTube y YouTube Music sin anuncios ni seguimiento. SimpMusic ofrece muchas funciones:\n\n - Transmisión de música \n - Letras sincronizadas\n - Personalizar datos\n - etc... \n\nSimpMusic es siempre gratuito y sin anuncios\n\nCompilado con ❤️ de Tuan Minh Nguyen Duc (Envoy-Z-Lab)</string>
     <string name="issue_tracker">Rastreador de problemas</string>
     <string name="featured_playlists">Listas de reproducción destacadas</string>
     <string name="featured_inArtist">Destacado en</string>

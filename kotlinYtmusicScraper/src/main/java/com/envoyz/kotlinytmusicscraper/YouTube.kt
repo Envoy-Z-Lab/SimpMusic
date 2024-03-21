@@ -113,7 +113,7 @@ private fun List<PipedResponse.AudioStream>.toListFormat(): List<PlayerResponse.
  *
  * Here is the object that can create all request to YouTube Music and Spotify in SimpMusic
  * Using YouTube Internal API, Spotify Web API and Spotify Internal API for get lyrics
- * @author envoyz-dev
+ * @author Envoy-Z-Lab
  */
 object YouTube {
     private val ytMusic = Ytmusic()

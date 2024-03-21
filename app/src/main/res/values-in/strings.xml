@@ -118,7 +118,7 @@
     <string name="about_us">Tentang kami</string>
     <string name="version">Versi</string>
     <string name="github">Github</string>
-    <string name="envoyz_dev">envoyz-dev</string>
+    <string name="envoyz">Ꮛɳѵoყ-Z | Zaid Sultan</string>
     <string name="buy_me_a_coffee">Belikan aku secangkir kopi</string>
     <string name="paypal">PayPal</string>
     <string name="title">Judul</string>
@@ -245,7 +245,7 @@
     <string name="main_lyrics_provider">Penyedia Lirik Utama</string>
     <string name="log_in_to_Musixmatch">Masuk ke Musixmatch</string>
     <string name="only_support_email_and_password_type">Hanya mendukung email dan sandi</string>
-    <string name="musixmatch_login_description">API Terjemahan Musixmatch hanya bekerja dengan pengguna yang sudah login. SimpMusic menggunakan API Pengembang Musixmatch. Informasi lebih lanjut, kunjungi https://github.com/envoyz-dev/SimpMusic atau https://developer.musixmatch.com/</string>
+    <string name="musixmatch_login_description">API Terjemahan Musixmatch hanya bekerja dengan pengguna yang sudah login. SimpMusic menggunakan API Pengembang Musixmatch. Informasi lebih lanjut, kunjungi https://github.com/Envoy-Z-Lab/SimpMusic atau https://developer.musixmatch.com/</string>
     <string name="use_musixmatch_translation">Gunakan Terjemahan Musixmatch</string>
     <string name="use_musixmatch_translation_description">Aktifkan terjemahan lirik menggunakan Musixmatch. Memerlukan Login Musixmatch</string>
     <string name="translation_language">Bahasa Terjemahan</string>
@@ -268,7 +268,7 @@
     <string name="suggest">Saran</string>
     <string name="reload">Memuat ulang</string>
     <string name="added_date">Tanggal ditambahkan</string>
-    <string name="credit_app">Aplikasi musik sederhana yang menggunakan YouTube Music untuk backend \n\nSimpMusic adalah proyek sumber terbuka untuk streaming musik dari YouTube dan YouTube Music tanpa iklan dan pelacakan. SimpMusic menyediakan banyak fitur:\n\n - Streaming musik\n - Lirik yang disinkronkan\n - Personalisasi data\n - dll... \n\nSimpMusic selalu gratis dan tidak ada iklan\n\nDibangun dengan ❤️ oleh Tuan Minh Nguyen Duc (envoyz-dev)</string>
+    <string name="credit_app">Aplikasi musik sederhana yang menggunakan YouTube Music untuk backend \n\nSimpMusic adalah proyek sumber terbuka untuk streaming musik dari YouTube dan YouTube Music tanpa iklan dan pelacakan. SimpMusic menyediakan banyak fitur:\n\n - Streaming musik\n - Lirik yang disinkronkan\n - Personalisasi data\n - dll... \n\nSimpMusic selalu gratis dan tidak ada iklan\n\nDibangun dengan ❤️ oleh Tuan Minh Nguyen Duc (Envoy-Z-Lab)</string>
     <string name="issue_tracker">Pelacak Masalah</string>
     <string name="featured_playlists">Rekomendasi Playlist</string>
     <string name="featured_inArtist">Termasuk di</string>
