@@ -1,16 +1,16 @@
-package com.maxrave.simpmusic.adapter.album
+package com.envoyz.riff.adapter.album
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.maxrave.simpmusic.data.db.entities.SongEntity
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.databinding.ItemAlbumTrackBinding
-import com.maxrave.simpmusic.extension.connectArtists
-import com.maxrave.simpmusic.extension.toListName
-import com.maxrave.simpmusic.extension.toTrack
-import com.maxrave.simpmusic.extension.toVideoIdList
+import com.envoyz.riff.data.db.entities.SongEntity
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.databinding.ItemAlbumTrackBinding
+import com.envoyz.riff.extension.connectArtists
+import com.envoyz.riff.extension.toListName
+import com.envoyz.riff.extension.toTrack
+import com.envoyz.riff.extension.toVideoIdList
 
 
 class TrackAdapter(private var trackList: ArrayList<Any>): RecyclerView.Adapter<RecyclerView.ViewHolder>() {

@@ -1,6 +1,6 @@
-package com.maxrave.simpmusic.data.model.browse.artist
+package com.envoyz.riff.data.model.browse.artist
 
-import com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail
+import com.envoyz.riff.data.model.searchResult.songs.Thumbnail
 
 data class ResultPlaylist(
     val id: String,

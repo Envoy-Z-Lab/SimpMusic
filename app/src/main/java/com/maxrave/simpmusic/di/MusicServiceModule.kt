@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.di
+package com.envoyz.riff.di
 
 import android.content.Context
 import androidx.media3.common.util.UnstableApi
@@ -7,9 +7,9 @@ import androidx.media3.database.StandaloneDatabaseProvider
 import androidx.media3.datasource.cache.LeastRecentlyUsedCacheEvictor
 import androidx.media3.datasource.cache.NoOpCacheEvictor
 import androidx.media3.datasource.cache.SimpleCache
-import com.maxrave.simpmusic.data.dataStore.DataStoreManager
-import com.maxrave.simpmusic.data.repository.MainRepository
-import com.maxrave.simpmusic.service.SimpleMediaSessionCallback
+import com.envoyz.riff.data.dataStore.DataStoreManager
+import com.envoyz.riff.data.repository.MainRepository
+import com.envoyz.riff.service.SimpleMediaSessionCallback
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

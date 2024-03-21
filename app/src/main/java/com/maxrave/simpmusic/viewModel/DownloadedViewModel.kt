@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.viewModel
+package com.envoyz.riff.viewModel
 
 import android.app.Application
 import android.widget.Toast
@@ -6,12 +6,12 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.common.DownloadState
-import com.maxrave.simpmusic.data.db.entities.LocalPlaylistEntity
-import com.maxrave.simpmusic.data.db.entities.PairSongLocalPlaylist
-import com.maxrave.simpmusic.data.db.entities.SongEntity
-import com.maxrave.simpmusic.data.repository.MainRepository
+import com.envoyz.riff.R
+import com.envoyz.riff.common.DownloadState
+import com.envoyz.riff.data.db.entities.LocalPlaylistEntity
+import com.envoyz.riff.data.db.entities.PairSongLocalPlaylist
+import com.envoyz.riff.data.db.entities.SongEntity
+import com.envoyz.riff.data.repository.MainRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import java.time.LocalDateTime

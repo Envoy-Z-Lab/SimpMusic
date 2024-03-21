@@ -1,4 +1,4 @@
-package com.maxrave.kotlinytmusicscraper.models
+package com.envoyz.kotlinytmusicscraper.models
 
 import kotlinx.serialization.Serializable
 import java.text.SimpleDateFormat

@@ -1,70 +1,70 @@
-package com.maxrave.kotlinytmusicscraper
+package com.envoyz.kotlinytmusicscraper
 
 import android.util.Log
 import com.google.gson.Gson
-import com.maxrave.kotlinytmusicscraper.models.AccountInfo
-import com.maxrave.kotlinytmusicscraper.models.AlbumItem
-import com.maxrave.kotlinytmusicscraper.models.Artist
-import com.maxrave.kotlinytmusicscraper.models.ArtistItem
-import com.maxrave.kotlinytmusicscraper.models.BrowseEndpoint
-import com.maxrave.kotlinytmusicscraper.models.GridRenderer
-import com.maxrave.kotlinytmusicscraper.models.MediaType
-import com.maxrave.kotlinytmusicscraper.models.MusicCarouselShelfRenderer
-import com.maxrave.kotlinytmusicscraper.models.PlaylistItem
-import com.maxrave.kotlinytmusicscraper.models.ReturnYouTubeDislikeResponse
-import com.maxrave.kotlinytmusicscraper.models.Run
-import com.maxrave.kotlinytmusicscraper.models.SearchSuggestions
-import com.maxrave.kotlinytmusicscraper.models.SongInfo
-import com.maxrave.kotlinytmusicscraper.models.SongItem
-import com.maxrave.kotlinytmusicscraper.models.VideoItem
-import com.maxrave.kotlinytmusicscraper.models.WatchEndpoint
-import com.maxrave.kotlinytmusicscraper.models.YouTubeClient.Companion.ANDROID_MUSIC
-import com.maxrave.kotlinytmusicscraper.models.YouTubeClient.Companion.WEB
-import com.maxrave.kotlinytmusicscraper.models.YouTubeClient.Companion.WEB_REMIX
-import com.maxrave.kotlinytmusicscraper.models.YouTubeLocale
-import com.maxrave.kotlinytmusicscraper.models.getContinuation
-import com.maxrave.kotlinytmusicscraper.models.musixmatch.MusixmatchCredential
-import com.maxrave.kotlinytmusicscraper.models.musixmatch.MusixmatchLyricsReponse
-import com.maxrave.kotlinytmusicscraper.models.musixmatch.MusixmatchLyricsResponseByQ
-import com.maxrave.kotlinytmusicscraper.models.musixmatch.MusixmatchTranslationLyricsResponse
-import com.maxrave.kotlinytmusicscraper.models.musixmatch.SearchMusixmatchResponse
-import com.maxrave.kotlinytmusicscraper.models.musixmatch.UserTokenResponse
-import com.maxrave.kotlinytmusicscraper.models.oddElements
-import com.maxrave.kotlinytmusicscraper.models.response.AccountMenuResponse
-import com.maxrave.kotlinytmusicscraper.models.response.AddItemYouTubePlaylistResponse
-import com.maxrave.kotlinytmusicscraper.models.response.BrowseResponse
-import com.maxrave.kotlinytmusicscraper.models.response.CreatePlaylistResponse
-import com.maxrave.kotlinytmusicscraper.models.response.GetQueueResponse
-import com.maxrave.kotlinytmusicscraper.models.response.GetSearchSuggestionsResponse
-import com.maxrave.kotlinytmusicscraper.models.response.NextResponse
-import com.maxrave.kotlinytmusicscraper.models.response.PipedResponse
-import com.maxrave.kotlinytmusicscraper.models.response.PlayerResponse
-import com.maxrave.kotlinytmusicscraper.models.response.SearchResponse
-import com.maxrave.kotlinytmusicscraper.models.response.spotify.CanvasResponse
-import com.maxrave.kotlinytmusicscraper.models.response.spotify.PersonalTokenResponse
-import com.maxrave.kotlinytmusicscraper.models.response.spotify.SpotifyLyricsResponse
-import com.maxrave.kotlinytmusicscraper.models.response.spotify.TokenResponse
-import com.maxrave.kotlinytmusicscraper.models.simpmusic.GithubResponse
-import com.maxrave.kotlinytmusicscraper.models.splitBySeparator
-import com.maxrave.kotlinytmusicscraper.models.sponsorblock.SkipSegments
-import com.maxrave.kotlinytmusicscraper.models.youtube.Transcript
-import com.maxrave.kotlinytmusicscraper.models.youtube.YouTubeInitialPage
-import com.maxrave.kotlinytmusicscraper.pages.AlbumPage
-import com.maxrave.kotlinytmusicscraper.pages.ArtistPage
-import com.maxrave.kotlinytmusicscraper.pages.ArtistSection
-import com.maxrave.kotlinytmusicscraper.pages.BrowseResult
-import com.maxrave.kotlinytmusicscraper.pages.ExplorePage
-import com.maxrave.kotlinytmusicscraper.pages.MoodAndGenres
-import com.maxrave.kotlinytmusicscraper.pages.NextPage
-import com.maxrave.kotlinytmusicscraper.pages.NextResult
-import com.maxrave.kotlinytmusicscraper.pages.PlaylistContinuationPage
-import com.maxrave.kotlinytmusicscraper.pages.PlaylistPage
-import com.maxrave.kotlinytmusicscraper.pages.RelatedPage
-import com.maxrave.kotlinytmusicscraper.pages.SearchPage
-import com.maxrave.kotlinytmusicscraper.pages.SearchResult
-import com.maxrave.kotlinytmusicscraper.pages.SearchSuggestionPage
-import com.maxrave.kotlinytmusicscraper.parser.parseMusixmatchLyrics
-import com.maxrave.kotlinytmusicscraper.parser.parseUnsyncedLyrics
+import com.envoyz.kotlinytmusicscraper.models.AccountInfo
+import com.envoyz.kotlinytmusicscraper.models.AlbumItem
+import com.envoyz.kotlinytmusicscraper.models.Artist
+import com.envoyz.kotlinytmusicscraper.models.ArtistItem
+import com.envoyz.kotlinytmusicscraper.models.BrowseEndpoint
+import com.envoyz.kotlinytmusicscraper.models.GridRenderer
+import com.envoyz.kotlinytmusicscraper.models.MediaType
+import com.envoyz.kotlinytmusicscraper.models.MusicCarouselShelfRenderer
+import com.envoyz.kotlinytmusicscraper.models.PlaylistItem
+import com.envoyz.kotlinytmusicscraper.models.ReturnYouTubeDislikeResponse
+import com.envoyz.kotlinytmusicscraper.models.Run
+import com.envoyz.kotlinytmusicscraper.models.SearchSuggestions
+import com.envoyz.kotlinytmusicscraper.models.SongInfo
+import com.envoyz.kotlinytmusicscraper.models.SongItem
+import com.envoyz.kotlinytmusicscraper.models.VideoItem
+import com.envoyz.kotlinytmusicscraper.models.WatchEndpoint
+import com.envoyz.kotlinytmusicscraper.models.YouTubeClient.Companion.ANDROID_MUSIC
+import com.envoyz.kotlinytmusicscraper.models.YouTubeClient.Companion.WEB
+import com.envoyz.kotlinytmusicscraper.models.YouTubeClient.Companion.WEB_REMIX
+import com.envoyz.kotlinytmusicscraper.models.YouTubeLocale
+import com.envoyz.kotlinytmusicscraper.models.getContinuation
+import com.envoyz.kotlinytmusicscraper.models.musixmatch.MusixmatchCredential
+import com.envoyz.kotlinytmusicscraper.models.musixmatch.MusixmatchLyricsReponse
+import com.envoyz.kotlinytmusicscraper.models.musixmatch.MusixmatchLyricsResponseByQ
+import com.envoyz.kotlinytmusicscraper.models.musixmatch.MusixmatchTranslationLyricsResponse
+import com.envoyz.kotlinytmusicscraper.models.musixmatch.SearchMusixmatchResponse
+import com.envoyz.kotlinytmusicscraper.models.musixmatch.UserTokenResponse
+import com.envoyz.kotlinytmusicscraper.models.oddElements
+import com.envoyz.kotlinytmusicscraper.models.response.AccountMenuResponse
+import com.envoyz.kotlinytmusicscraper.models.response.AddItemYouTubePlaylistResponse
+import com.envoyz.kotlinytmusicscraper.models.response.BrowseResponse
+import com.envoyz.kotlinytmusicscraper.models.response.CreatePlaylistResponse
+import com.envoyz.kotlinytmusicscraper.models.response.GetQueueResponse
+import com.envoyz.kotlinytmusicscraper.models.response.GetSearchSuggestionsResponse
+import com.envoyz.kotlinytmusicscraper.models.response.NextResponse
+import com.envoyz.kotlinytmusicscraper.models.response.PipedResponse
+import com.envoyz.kotlinytmusicscraper.models.response.PlayerResponse
+import com.envoyz.kotlinytmusicscraper.models.response.SearchResponse
+import com.envoyz.kotlinytmusicscraper.models.response.spotify.CanvasResponse
+import com.envoyz.kotlinytmusicscraper.models.response.spotify.PersonalTokenResponse
+import com.envoyz.kotlinytmusicscraper.models.response.spotify.SpotifyLyricsResponse
+import com.envoyz.kotlinytmusicscraper.models.response.spotify.TokenResponse
+import com.envoyz.kotlinytmusicscraper.models.riff.GithubResponse
+import com.envoyz.kotlinytmusicscraper.models.splitBySeparator
+import com.envoyz.kotlinytmusicscraper.models.sponsorblock.SkipSegments
+import com.envoyz.kotlinytmusicscraper.models.youtube.Transcript
+import com.envoyz.kotlinytmusicscraper.models.youtube.YouTubeInitialPage
+import com.envoyz.kotlinytmusicscraper.pages.AlbumPage
+import com.envoyz.kotlinytmusicscraper.pages.ArtistPage
+import com.envoyz.kotlinytmusicscraper.pages.ArtistSection
+import com.envoyz.kotlinytmusicscraper.pages.BrowseResult
+import com.envoyz.kotlinytmusicscraper.pages.ExplorePage
+import com.envoyz.kotlinytmusicscraper.pages.MoodAndGenres
+import com.envoyz.kotlinytmusicscraper.pages.NextPage
+import com.envoyz.kotlinytmusicscraper.pages.NextResult
+import com.envoyz.kotlinytmusicscraper.pages.PlaylistContinuationPage
+import com.envoyz.kotlinytmusicscraper.pages.PlaylistPage
+import com.envoyz.kotlinytmusicscraper.pages.RelatedPage
+import com.envoyz.kotlinytmusicscraper.pages.SearchPage
+import com.envoyz.kotlinytmusicscraper.pages.SearchResult
+import com.envoyz.kotlinytmusicscraper.pages.SearchSuggestionPage
+import com.envoyz.kotlinytmusicscraper.parser.parseMusixmatchLyrics
+import com.envoyz.kotlinytmusicscraper.parser.parseUnsyncedLyrics
 import com.mohamedrejeb.ksoup.html.parser.KsoupHtmlHandler
 import com.mohamedrejeb.ksoup.html.parser.KsoupHtmlParser
 import io.ktor.client.call.body
@@ -113,7 +113,7 @@ private fun List<PipedResponse.AudioStream>.toListFormat(): List<PlayerResponse.
  *
  * Here is the object that can create all request to YouTube Music and Spotify in SimpMusic
  * Using YouTube Internal API, Spotify Web API and Spotify Internal API for get lyrics
- * @author maxrave-dev
+ * @author envoyz-dev
  */
 object YouTube {
     private val ytMusic = Ytmusic()
@@ -879,7 +879,7 @@ object YouTube {
 
     suspend fun searchSpotifyTrack(query: String, token: String) = runCatching {
         ytMusic.searchSpotifyTrack(query, token)
-            .body<com.maxrave.kotlinytmusicscraper.models.response.spotify.SearchResponse>()
+            .body<com.envoyz.kotlinytmusicscraper.models.response.spotify.SearchResponse>()
     }
 
     suspend fun getSpotifyLyrics(trackId: String, token: String) = runCatching {

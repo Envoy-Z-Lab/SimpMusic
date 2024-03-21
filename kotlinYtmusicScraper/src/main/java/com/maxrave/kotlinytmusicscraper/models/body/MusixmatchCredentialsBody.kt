@@ -1,4 +1,4 @@
-package com.maxrave.kotlinytmusicscraper.models.body
+package com.envoyz.kotlinytmusicscraper.models.body
 
 import kotlinx.serialization.Serializable
 

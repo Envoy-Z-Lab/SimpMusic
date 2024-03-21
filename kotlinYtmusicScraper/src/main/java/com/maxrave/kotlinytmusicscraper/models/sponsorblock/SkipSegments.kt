@@ -1,4 +1,4 @@
-package com.maxrave.kotlinytmusicscraper.models.sponsorblock
+package com.envoyz.kotlinytmusicscraper.models.sponsorblock
 
 
 import kotlinx.serialization.SerialName

@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.data.model.explore.mood.moodmoments
+package com.envoyz.riff.data.model.explore.mood.moodmoments
 
 
 import com.google.gson.annotations.SerializedName

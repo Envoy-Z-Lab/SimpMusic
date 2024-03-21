@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.maxrave.kotlinytmusicscraper"
+    namespace = "com.envoyz.kotlinytmusicscraper"
     compileSdk = 34
 
     defaultConfig {

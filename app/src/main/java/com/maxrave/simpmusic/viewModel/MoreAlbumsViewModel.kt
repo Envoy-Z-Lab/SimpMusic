@@ -1,10 +1,10 @@
-package com.maxrave.simpmusic.viewModel
+package com.envoyz.riff.viewModel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.maxrave.kotlinytmusicscraper.pages.BrowseResult
-import com.maxrave.simpmusic.data.repository.MainRepository
+import com.envoyz.kotlinytmusicscraper.pages.BrowseResult
+import com.envoyz.riff.data.repository.MainRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

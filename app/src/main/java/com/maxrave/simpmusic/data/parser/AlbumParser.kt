@@ -1,10 +1,10 @@
-package com.maxrave.simpmusic.data.parser
+package com.envoyz.riff.data.parser
 
-import com.maxrave.kotlinytmusicscraper.pages.AlbumPage
-import com.maxrave.simpmusic.data.model.browse.album.AlbumBrowse
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.data.model.searchResult.songs.Album
-import com.maxrave.simpmusic.data.model.searchResult.songs.Artist
+import com.envoyz.kotlinytmusicscraper.pages.AlbumPage
+import com.envoyz.riff.data.model.browse.album.AlbumBrowse
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.data.model.searchResult.songs.Album
+import com.envoyz.riff.data.model.searchResult.songs.Artist
 
 fun parseAlbumData(data: AlbumPage): AlbumBrowse {
     val artist: ArrayList<Artist> = arrayListOf()

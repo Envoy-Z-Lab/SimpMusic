@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic
+package com.envoyz.riff
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

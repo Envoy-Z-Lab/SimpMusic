@@ -1,11 +1,11 @@
-package com.maxrave.simpmusic.adapter.home
+package com.envoyz.riff.adapter.home
 
 import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.maxrave.simpmusic.data.model.explore.mood.MoodsMoment
-import com.maxrave.simpmusic.databinding.ItemMoodsMomentGenreBinding
+import com.envoyz.riff.data.model.explore.mood.MoodsMoment
+import com.envoyz.riff.databinding.ItemMoodsMomentGenreBinding
 import kotlin.random.Random
 
 class MoodsMomentAdapter(val moodsMomentList: ArrayList<MoodsMoment>): RecyclerView.Adapter<MoodsMomentAdapter.ViewHolder>() {

@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.adapter.queue
+package com.envoyz.riff.adapter.queue
 
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView

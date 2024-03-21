@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.adapter.playlist
+package com.envoyz.riff.adapter.playlist
 
 import android.util.Log
 import android.view.LayoutInflater
@@ -8,13 +8,13 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import coil.ImageLoader
 import coil.request.ImageRequest
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.data.db.entities.SongEntity
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.databinding.ItemPopularSongBinding
-import com.maxrave.simpmusic.extension.connectArtists
-import com.maxrave.simpmusic.extension.toListName
-import com.maxrave.simpmusic.extension.toVideoIdList
+import com.envoyz.riff.R
+import com.envoyz.riff.data.db.entities.SongEntity
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.databinding.ItemPopularSongBinding
+import com.envoyz.riff.extension.connectArtists
+import com.envoyz.riff.extension.toListName
+import com.envoyz.riff.extension.toVideoIdList
 
 class PlaylistItemAdapter(private var playlistItemList: ArrayList<Any>): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     private lateinit var mListener: OnItemClickListener

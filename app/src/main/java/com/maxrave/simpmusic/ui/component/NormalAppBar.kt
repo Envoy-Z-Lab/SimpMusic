@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.envoyz.riff.ui.component
 
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -10,7 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.maxrave.simpmusic.R
+import com.envoyz.riff.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

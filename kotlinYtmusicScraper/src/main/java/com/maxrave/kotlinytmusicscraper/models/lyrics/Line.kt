@@ -1,4 +1,4 @@
-package com.maxrave.kotlinytmusicscraper.models.lyrics
+package com.envoyz.kotlinytmusicscraper.models.lyrics
 
 
 import kotlinx.serialization.SerialName

@@ -1,9 +1,9 @@
-package com.maxrave.simpmusic.data.model.browse.playlist
+package com.envoyz.riff.data.model.browse.playlist
 
 
 import com.google.gson.annotations.SerializedName
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.data.model.searchResult.songs.Thumbnail
 
 data class PlaylistBrowse(
     @SerializedName("author")

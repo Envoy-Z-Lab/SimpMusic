@@ -1,14 +1,14 @@
-package com.maxrave.simpmusic.viewModel
+package com.envoyz.riff.viewModel
 
 import android.app.Application
 import android.graphics.drawable.GradientDrawable
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.maxrave.simpmusic.data.dataStore.DataStoreManager
-import com.maxrave.simpmusic.data.model.podcast.PodcastBrowse
-import com.maxrave.simpmusic.data.repository.MainRepository
-import com.maxrave.simpmusic.utils.Resource
+import com.envoyz.riff.data.dataStore.DataStoreManager
+import com.envoyz.riff.data.model.podcast.PodcastBrowse
+import com.envoyz.riff.data.repository.MainRepository
+import com.envoyz.riff.utils.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

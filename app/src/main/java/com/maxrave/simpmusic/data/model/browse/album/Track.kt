@@ -1,11 +1,11 @@
-package com.maxrave.simpmusic.data.model.browse.album
+package com.envoyz.riff.data.model.browse.album
 
 
 import com.google.gson.annotations.SerializedName
-import com.maxrave.simpmusic.data.model.searchResult.songs.Album
-import com.maxrave.simpmusic.data.model.searchResult.songs.Artist
-import com.maxrave.simpmusic.data.model.searchResult.songs.FeedbackTokens
-import com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail
+import com.envoyz.riff.data.model.searchResult.songs.Album
+import com.envoyz.riff.data.model.searchResult.songs.Artist
+import com.envoyz.riff.data.model.searchResult.songs.FeedbackTokens
+import com.envoyz.riff.data.model.searchResult.songs.Thumbnail
 
 data class Track(
     @SerializedName("album")

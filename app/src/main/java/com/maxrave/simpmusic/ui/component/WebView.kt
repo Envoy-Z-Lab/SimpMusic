@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.envoyz.riff.ui.component
 
 import android.webkit.WebView
 import android.webkit.WebViewClient
@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.viewinterop.AndroidView
-import com.maxrave.simpmusic.R
+import com.envoyz.riff.R
 
 @Composable
 fun WebView(modifier: Modifier = Modifier, url: String, onFinished: () -> Unit) {

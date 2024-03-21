@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.utils
+package com.envoyz.riff.utils
 
 //class Resource<out T>(val hstatus: Status, val data: T?, val message: String?) {
 //    companion object {

@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.viewModel
+package com.envoyz.riff.viewModel
 
 import android.app.Application
 import android.util.Log
@@ -9,13 +9,13 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.offline.Download
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.common.DownloadState
-import com.maxrave.simpmusic.data.db.entities.LocalPlaylistEntity
-import com.maxrave.simpmusic.data.db.entities.PairSongLocalPlaylist
-import com.maxrave.simpmusic.data.db.entities.SongEntity
-import com.maxrave.simpmusic.data.repository.MainRepository
-import com.maxrave.simpmusic.service.test.download.DownloadUtils
+import com.envoyz.riff.R
+import com.envoyz.riff.common.DownloadState
+import com.envoyz.riff.data.db.entities.LocalPlaylistEntity
+import com.envoyz.riff.data.db.entities.PairSongLocalPlaylist
+import com.envoyz.riff.data.db.entities.SongEntity
+import com.envoyz.riff.data.repository.MainRepository
+import com.envoyz.riff.service.test.download.DownloadUtils
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

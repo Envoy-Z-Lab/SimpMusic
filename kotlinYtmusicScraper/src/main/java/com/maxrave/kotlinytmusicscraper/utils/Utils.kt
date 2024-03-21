@@ -1,7 +1,7 @@
-package com.maxrave.kotlinytmusicscraper.utils
+package com.envoyz.kotlinytmusicscraper.utils
 
-import com.maxrave.kotlinytmusicscraper.YouTube
-import com.maxrave.kotlinytmusicscraper.pages.PlaylistPage
+import com.envoyz.kotlinytmusicscraper.YouTube
+import com.envoyz.kotlinytmusicscraper.pages.PlaylistPage
 import java.security.MessageDigest
 
 suspend fun Result<PlaylistPage>.completed() = runCatching {

@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.fragment.other
+package com.envoyz.riff.ui.fragment.other
 
 import android.os.Bundle
 import android.util.Log
@@ -10,11 +10,11 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
-import com.maxrave.kotlinytmusicscraper.models.YTItem
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.adapter.artist.MoreAlbumAdapter
-import com.maxrave.simpmusic.databinding.FragmentMoreAlbumsBinding
-import com.maxrave.simpmusic.viewModel.MoreAlbumsViewModel
+import com.envoyz.kotlinytmusicscraper.models.YTItem
+import com.envoyz.riff.R
+import com.envoyz.riff.adapter.artist.MoreAlbumAdapter
+import com.envoyz.riff.databinding.FragmentMoreAlbumsBinding
+import com.envoyz.riff.viewModel.MoreAlbumsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import dev.chrisbanes.insetter.applyInsetter
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.data.model.home.chart
+package com.envoyz.riff.data.model.home.chart
 
 
 import com.google.gson.annotations.SerializedName

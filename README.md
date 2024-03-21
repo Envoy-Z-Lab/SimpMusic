@@ -1,18 +1,18 @@
 
 <div align="center">
-	<img src="https://raw.githubusercontent.com/maxrave-dev/SimpMusic/dev/fastlane/metadata/android/en-US/images/featureGraphic.png">
+	<img src="https://raw.githubusercontent.com/envoyz-dev/SimpMusic/dev/fastlane/metadata/android/en-US/images/featureGraphic.png">
 <h1>SimpMusic</h1>A FOSS YouTube Music client for Android with many features from<br>Spotify, Musixmatch, SponsorBlock, ReturnYouTubeDislike<br>
 <br>
-<a href="https://github.com/maxrave-dev/SimpMusic/releases"><img src="https://img.shields.io/github/v/release/maxrave-dev/SimpMusic"></a>
-<a href="https://github.com/maxrave-dev/SimpMusic/releases"><img src="https://img.shields.io/github/downloads/maxrave-dev/SimpMusic/total"></a>
+<a href="https://github.com/envoyz-dev/SimpMusic/releases"><img src="https://img.shields.io/github/v/release/envoyz-dev/SimpMusic"></a>
+<a href="https://github.com/envoyz-dev/SimpMusic/releases"><img src="https://img.shields.io/github/downloads/envoyz-dev/SimpMusic/total"></a>
 <br>
 <br>
-<a href="https://apt.izzysoft.de/packages/com.maxrave.simpmusic/"><img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" height="80"></a>
-<a href="https://f-droid.org/en/packages/com.maxrave.simpmusic/"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" height="80"></a>
-<a href="https://github.com/maxrave-dev/SimpMusic/releases"><img src="https://raw.githubusercontent.com/NeoApplications/Neo-Backup/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png" height="80"></a>
+<a href="https://apt.izzysoft.de/packages/com.envoyz.riff/"><img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" height="80"></a>
+<a href="https://f-droid.org/en/packages/com.envoyz.riff/"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" height="80"></a>
+<a href="https://github.com/envoyz-dev/SimpMusic/releases"><img src="https://raw.githubusercontent.com/NeoApplications/Neo-Backup/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png" height="80"></a>
 <h3>Nightly Build<h3>
-<a href="https://nightly.link/maxrave-dev/SimpMusic/workflows/android/dev/app.zip"><img src="https://github.com/maxrave-dev/SimpMusic/actions/workflows/android.yml/badge.svg"></a><br/>
-<a href="https://nightly.link/maxrave-dev/SimpMusic/workflows/android/dev/app.zip"><img src="https://raw.githubusercontent.com/NeoApplications/Neo-Backup/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png" height="80"></a>
+<a href="https://nightly.link/envoyz-dev/SimpMusic/workflows/android/dev/app.zip"><img src="https://github.com/envoyz-dev/SimpMusic/actions/workflows/android.yml/badge.svg"></a><br/>
+<a href="https://nightly.link/envoyz-dev/SimpMusic/workflows/android/dev/app.zip"><img src="https://raw.githubusercontent.com/NeoApplications/Neo-Backup/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png" height="80"></a>
 </div>
 	
 ## Features ✨️
@@ -42,21 +42,21 @@
 ## Screenshots
 
 <p align="center">  
-  <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg?raw=true" width="200" />  
-  <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg?raw=true" width="200" />  
-   <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg?raw=true" width="200" />  
-   <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg?raw=true" width="200" />  
+  <img src="https://github.com/envoyz-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg?raw=true" width="200" />  
+  <img src="https://github.com/envoyz-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg?raw=true" width="200" />  
+   <img src="https://github.com/envoyz-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg?raw=true" width="200" />  
+   <img src="https://github.com/envoyz-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg?raw=true" width="200" />  
 </p>  
 <p align="center">  
-  <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg?raw=true" width="200" />  
-  <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg?raw=true" width="200" />  
-   <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/8.jpg?raw=true" width="200" />  
-   <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/9.jpg?raw=true" width="200" />  
+  <img src="https://github.com/envoyz-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg?raw=true" width="200" />  
+  <img src="https://github.com/envoyz-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg?raw=true" width="200" />  
+   <img src="https://github.com/envoyz-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/8.jpg?raw=true" width="200" />  
+   <img src="https://github.com/envoyz-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/9.jpg?raw=true" width="200" />  
 </p>  
 </p>  
 <p align="center">  
-  <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/10.jpg?raw=true" width="200" />  
-  <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/11.jpg?raw=true" width="200" /> 
+  <img src="https://github.com/envoyz-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/10.jpg?raw=true" width="200" />  
+  <img src="https://github.com/envoyz-dev/SimpMusic/blob/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/11.jpg?raw=true" width="200" /> 
 </p>  
 
 #### More [screenshot](https://photos.app.goo.gl/AbieoXG5ctDrpwzp7) here.
@@ -76,12 +76,12 @@ SimpMusic doesn't have any tracker or third-party server for collecting user dat
 logged-in users enable "Send back to Google" feature, SimpMusic only uses YouTube Music Tracking API
 to send listening history and listening record of video to Google for better recommendations and
 supporting artist or YouTube Creator (For API reference,
-see [this](https://github.com/maxrave-dev/SimpMusic/blob/13f7ab6e5fa521b62a9fd31a1cefdc2787a1a8af/kotlinYtmusicScraper/src/main/java/com/maxrave/kotlinytmusicscraper/Ytmusic.kt#L639C4-L666C1)).
+see [this](https://github.com/envoyz-dev/SimpMusic/blob/13f7ab6e5fa521b62a9fd31a1cefdc2787a1a8af/kotlinYtmusicScraper/src/main/java/com/envoyz/kotlinytmusicscraper/Ytmusic.kt#L639C4-L666C1)).
 
 ## Translation
 
-[![Crowdin](https://badges.crowdin.net/simpmusic/localized.svg)](https://crowdin.com/project/simpmusic)  
-You can help me translate this app into your language by using Crowdin [SimpMusic on Crowdin](https://crowdin.com/project/simpmusic)
+[![Crowdin](https://badges.crowdin.net/riff/localized.svg)](https://crowdin.com/project/riff)  
+You can help me translate this app into your language by using Crowdin [SimpMusic on Crowdin](https://crowdin.com/project/riff)
 
 ## FAQ
 
@@ -97,24 +97,24 @@ Simply, because I love this name. It's a combination of Simple and Music. But Si
 
 ## Developer/Team
 
-### [maxrave-dev](https://github.com/maxrave-dev/SimpMusic): Founder/Developer/Designer 
+### [envoyz-dev](https://github.com/envoyz-dev/SimpMusic): Founder/Developer/Designer 
 
 ### [owen connor](https://github.com/owencz1998): Discord Server Admin. 
 
 ## Support & Donations
 <div align="left">
-<a href="https://simpmusic.tech/"><img alt="Visit the website" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/documentation/website_vector.svg"></a>
+<a href="https://riff.tech/"><img alt="Visit the website" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/documentation/website_vector.svg"></a>
 &nbsp;
 <a href="https://discord.gg/Rq5tWVM9Hg"><img alt="Discord Server" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg"></a>
 &nbsp;
 <br>
-<a href="https://www.buymeacoffee.com/maxrave"><img alt="Buy me a Coffee" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/buymeacoffee-singular_vector.svg"></a>
+<a href="https://www.buymeacoffee.com/envoyz"><img alt="Buy me a Coffee" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/buymeacoffee-singular_vector.svg"></a>
 &nbsp;
-<a href="https://liberapay.com/maxrave/"><img alt="liberapay" height="50"
+<a href="https://liberapay.com/envoyz/"><img alt="liberapay" height="50"
 src="https://raw.githubusercontent.com/liberapay/liberapay.com/master/www/assets/liberapay/logo-v2_black-on-yellow.svg"></a>
 <div/>
 
 ### MOMO or Vietnamese banking
 <p float="left">
-	<img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/52770992.jpg?raw=true" width="300">
+	<img src="https://github.com/envoyz-dev/SimpMusic/blob/dev/asset/52770992.jpg?raw=true" width="300">
 </p>

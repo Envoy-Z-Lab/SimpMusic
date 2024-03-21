@@ -1,15 +1,15 @@
-package com.maxrave.simpmusic.adapter.playlist
+package com.envoyz.riff.adapter.playlist
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import coil.load
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.databinding.ItemSuggestItemYoutubePlaylistBinding
-import com.maxrave.simpmusic.extension.connectArtists
-import com.maxrave.simpmusic.extension.toListName
+import com.envoyz.riff.R
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.databinding.ItemSuggestItemYoutubePlaylistBinding
+import com.envoyz.riff.extension.connectArtists
+import com.envoyz.riff.extension.toListName
 
 class SuggestItemAdapter(private var listTrack: ArrayList<Track>): Adapter<SuggestItemAdapter.SuggestItemViewHolder>() {
     interface OnItemClickListener {

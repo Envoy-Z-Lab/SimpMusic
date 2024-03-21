@@ -1,7 +1,7 @@
-package com.maxrave.simpmusic.data.parser
+package com.envoyz.riff.data.parser
 
-import com.maxrave.kotlinytmusicscraper.models.GridRenderer
-import com.maxrave.simpmusic.data.model.searchResult.playlists.PlaylistsResult
+import com.envoyz.kotlinytmusicscraper.models.GridRenderer
+import com.envoyz.riff.data.model.searchResult.playlists.PlaylistsResult
 
 fun parseLibraryPlaylist(input: List<GridRenderer.Item>): ArrayList<PlaylistsResult> {
     val list : ArrayList<PlaylistsResult> = arrayListOf()

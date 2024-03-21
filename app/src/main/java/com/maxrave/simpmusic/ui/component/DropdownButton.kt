@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.envoyz.riff.ui.component
 
 import android.content.res.Configuration
 import androidx.compose.foundation.layout.Box
@@ -20,7 +20,7 @@ import androidx.compose.ui.graphics.Color.Companion.Gray
 import androidx.compose.ui.graphics.Color.Companion.Transparent
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.maxrave.simpmusic.ui.theme.typo
+import com.envoyz.riff.ui.theme.typo
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.adapter.moodandgenre.genre
+package com.envoyz.riff.adapter.moodandgenre.genre
 
 import android.content.Context
 import android.os.Bundle
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import androidx.navigation.NavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.data.model.explore.mood.genre.Content
-import com.maxrave.simpmusic.data.model.explore.mood.genre.ItemsPlaylist
-import com.maxrave.simpmusic.databinding.ItemMoodMomentPlaylistBinding
-import com.maxrave.simpmusic.extension.navigateSafe
+import com.envoyz.riff.R
+import com.envoyz.riff.data.model.explore.mood.genre.Content
+import com.envoyz.riff.data.model.explore.mood.genre.ItemsPlaylist
+import com.envoyz.riff.databinding.ItemMoodMomentPlaylistBinding
+import com.envoyz.riff.extension.navigateSafe
 
 class GenreItemAdapter(private var genreList: ArrayList<ItemsPlaylist>, val context: Context, val navController: NavController): RecyclerView.Adapter<GenreItemAdapter.ViewHolder>() {
     inner class ViewHolder(val binding: ItemMoodMomentPlaylistBinding): RecyclerView.ViewHolder(binding.root)

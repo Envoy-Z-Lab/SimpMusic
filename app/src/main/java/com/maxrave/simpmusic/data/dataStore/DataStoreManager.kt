@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.data.dataStore
+package com.envoyz.riff.data.dataStore
 
 import android.util.Log
 import androidx.datastore.core.DataStore
@@ -8,16 +8,16 @@ import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.datastore.preferences.core.longPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.media3.common.Player
-import com.maxrave.simpmusic.common.SELECTED_LANGUAGE
-import com.maxrave.simpmusic.common.SPONSOR_BLOCK
-import com.maxrave.simpmusic.common.SUPPORTED_LANGUAGE
+import com.envoyz.riff.common.SELECTED_LANGUAGE
+import com.envoyz.riff.common.SPONSOR_BLOCK
+import com.envoyz.riff.common.SUPPORTED_LANGUAGE
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
-import com.maxrave.simpmusic.common.QUALITY as COMMON_QUALITY
+import com.envoyz.riff.common.QUALITY as COMMON_QUALITY
 
 class DataStoreManager
     @Inject

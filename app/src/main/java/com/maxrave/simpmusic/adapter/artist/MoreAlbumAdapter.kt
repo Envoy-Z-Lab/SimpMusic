@@ -1,14 +1,14 @@
-package com.maxrave.simpmusic.adapter.artist
+package com.envoyz.riff.adapter.artist
 
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.kotlinytmusicscraper.models.AlbumItem
-import com.maxrave.kotlinytmusicscraper.models.YTItem
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.databinding.ItemSinglesBinding
+import com.envoyz.kotlinytmusicscraper.models.AlbumItem
+import com.envoyz.kotlinytmusicscraper.models.YTItem
+import com.envoyz.riff.R
+import com.envoyz.riff.databinding.ItemSinglesBinding
 
 class MoreAlbumAdapter(private var albumList: ArrayList<YTItem>): RecyclerView.Adapter<MoreAlbumAdapter.ViewHolder>() {
     interface OnItemClickListener {

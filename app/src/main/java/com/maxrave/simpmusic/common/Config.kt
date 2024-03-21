@@ -1,6 +1,6 @@
-package com.maxrave.simpmusic.common
+package com.envoyz.riff.common
 
-import com.maxrave.simpmusic.R
+import com.envoyz.riff.R
 import java.time.LocalDateTime
 import java.time.Month
 

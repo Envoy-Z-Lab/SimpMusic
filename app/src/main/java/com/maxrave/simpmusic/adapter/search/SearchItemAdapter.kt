@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.adapter.search
+package com.envoyz.riff.adapter.search
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,28 +6,28 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.common.Config.ALBUM_CLICK
-import com.maxrave.simpmusic.common.Config.PLAYLIST_CLICK
-import com.maxrave.simpmusic.common.Config.SONG_CLICK
-import com.maxrave.simpmusic.common.Config.VIDEO_CLICK
-import com.maxrave.simpmusic.data.db.entities.AlbumEntity
-import com.maxrave.simpmusic.data.db.entities.ArtistEntity
-import com.maxrave.simpmusic.data.db.entities.PlaylistEntity
-import com.maxrave.simpmusic.data.db.entities.SongEntity
-import com.maxrave.simpmusic.data.model.searchResult.albums.AlbumsResult
-import com.maxrave.simpmusic.data.model.searchResult.artists.ArtistsResult
-import com.maxrave.simpmusic.data.model.searchResult.playlists.PlaylistsResult
-import com.maxrave.simpmusic.data.model.searchResult.songs.SongsResult
-import com.maxrave.simpmusic.data.model.searchResult.videos.VideosResult
-import com.maxrave.simpmusic.databinding.ItemAlbumSearchResultBinding
-import com.maxrave.simpmusic.databinding.ItemArtistSearchResultBinding
-import com.maxrave.simpmusic.databinding.ItemPlaylistSearchResultBinding
-import com.maxrave.simpmusic.databinding.ItemSongsSearchResultBinding
-import com.maxrave.simpmusic.databinding.ItemsVideosSearchResultBinding
-import com.maxrave.simpmusic.extension.connectArtists
-import com.maxrave.simpmusic.extension.toListName
-import com.maxrave.simpmusic.extension.toVideoIdList
+import com.envoyz.riff.R
+import com.envoyz.riff.common.Config.ALBUM_CLICK
+import com.envoyz.riff.common.Config.PLAYLIST_CLICK
+import com.envoyz.riff.common.Config.SONG_CLICK
+import com.envoyz.riff.common.Config.VIDEO_CLICK
+import com.envoyz.riff.data.db.entities.AlbumEntity
+import com.envoyz.riff.data.db.entities.ArtistEntity
+import com.envoyz.riff.data.db.entities.PlaylistEntity
+import com.envoyz.riff.data.db.entities.SongEntity
+import com.envoyz.riff.data.model.searchResult.albums.AlbumsResult
+import com.envoyz.riff.data.model.searchResult.artists.ArtistsResult
+import com.envoyz.riff.data.model.searchResult.playlists.PlaylistsResult
+import com.envoyz.riff.data.model.searchResult.songs.SongsResult
+import com.envoyz.riff.data.model.searchResult.videos.VideosResult
+import com.envoyz.riff.databinding.ItemAlbumSearchResultBinding
+import com.envoyz.riff.databinding.ItemArtistSearchResultBinding
+import com.envoyz.riff.databinding.ItemPlaylistSearchResultBinding
+import com.envoyz.riff.databinding.ItemSongsSearchResultBinding
+import com.envoyz.riff.databinding.ItemsVideosSearchResultBinding
+import com.envoyz.riff.extension.connectArtists
+import com.envoyz.riff.extension.toListName
+import com.envoyz.riff.extension.toVideoIdList
 
 class SearchItemAdapter(private var searchResultList: ArrayList<Any>, var context: Context): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     private lateinit var mListener: onItemClickListener

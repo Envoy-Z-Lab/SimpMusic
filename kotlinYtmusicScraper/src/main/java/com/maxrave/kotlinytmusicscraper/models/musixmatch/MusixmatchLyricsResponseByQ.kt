@@ -1,4 +1,4 @@
-package com.maxrave.kotlinytmusicscraper.models.musixmatch
+package com.envoyz.kotlinytmusicscraper.models.musixmatch
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

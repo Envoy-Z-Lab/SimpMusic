@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.data.model.browse.artist
+package com.envoyz.riff.data.model.browse.artist
 
 
 import com.google.gson.annotations.SerializedName

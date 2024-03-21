@@ -1,13 +1,13 @@
-package com.maxrave.simpmusic.adapter.artist
+package com.envoyz.riff.adapter.artist
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.data.model.browse.artist.ResultRelated
-import com.maxrave.simpmusic.databinding.ItemRelatedArtistBinding
+import com.envoyz.riff.R
+import com.envoyz.riff.data.model.browse.artist.ResultRelated
+import com.envoyz.riff.databinding.ItemRelatedArtistBinding
 
 class RelatedArtistsAdapter(private var relatedArtistsList: ArrayList<ResultRelated>, val context: Context): RecyclerView.Adapter<RelatedArtistsAdapter.ViewHolder>() {
     private lateinit var mListener: OnItemClickListener

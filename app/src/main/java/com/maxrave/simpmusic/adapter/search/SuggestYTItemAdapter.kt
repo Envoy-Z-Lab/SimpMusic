@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.adapter.search
+package com.envoyz.riff.adapter.search
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,25 +6,25 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.kotlinytmusicscraper.models.AlbumItem
-import com.maxrave.kotlinytmusicscraper.models.ArtistItem
-import com.maxrave.kotlinytmusicscraper.models.PlaylistItem
-import com.maxrave.kotlinytmusicscraper.models.SongItem
-import com.maxrave.kotlinytmusicscraper.models.VideoItem
-import com.maxrave.kotlinytmusicscraper.models.YTItem
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.common.Config.ALBUM_CLICK
-import com.maxrave.simpmusic.common.Config.PLAYLIST_CLICK
-import com.maxrave.simpmusic.common.Config.SONG_CLICK
-import com.maxrave.simpmusic.common.Config.VIDEO_CLICK
-import com.maxrave.simpmusic.databinding.ItemAlbumSearchResultBinding
-import com.maxrave.simpmusic.databinding.ItemArtistSearchResultBinding
-import com.maxrave.simpmusic.databinding.ItemPlaylistSearchResultBinding
-import com.maxrave.simpmusic.databinding.ItemSongsSearchResultBinding
-import com.maxrave.simpmusic.databinding.ItemsVideosSearchResultBinding
-import com.maxrave.simpmusic.extension.connectArtists
-import com.maxrave.simpmusic.extension.toListName
-import com.maxrave.simpmusic.extension.toTrack
+import com.envoyz.kotlinytmusicscraper.models.AlbumItem
+import com.envoyz.kotlinytmusicscraper.models.ArtistItem
+import com.envoyz.kotlinytmusicscraper.models.PlaylistItem
+import com.envoyz.kotlinytmusicscraper.models.SongItem
+import com.envoyz.kotlinytmusicscraper.models.VideoItem
+import com.envoyz.kotlinytmusicscraper.models.YTItem
+import com.envoyz.riff.R
+import com.envoyz.riff.common.Config.ALBUM_CLICK
+import com.envoyz.riff.common.Config.PLAYLIST_CLICK
+import com.envoyz.riff.common.Config.SONG_CLICK
+import com.envoyz.riff.common.Config.VIDEO_CLICK
+import com.envoyz.riff.databinding.ItemAlbumSearchResultBinding
+import com.envoyz.riff.databinding.ItemArtistSearchResultBinding
+import com.envoyz.riff.databinding.ItemPlaylistSearchResultBinding
+import com.envoyz.riff.databinding.ItemSongsSearchResultBinding
+import com.envoyz.riff.databinding.ItemsVideosSearchResultBinding
+import com.envoyz.riff.extension.connectArtists
+import com.envoyz.riff.extension.toListName
+import com.envoyz.riff.extension.toTrack
 
 class SuggestYTItemAdapter(private val listYtItems: ArrayList<YTItem>, private val context: Context): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     private lateinit var mListener: onItemClickListener

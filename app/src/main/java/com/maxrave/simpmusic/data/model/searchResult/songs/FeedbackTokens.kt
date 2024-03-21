@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.data.model.searchResult.songs
+package com.envoyz.riff.data.model.searchResult.songs
 
 
 import com.google.gson.annotations.SerializedName

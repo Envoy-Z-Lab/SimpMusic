@@ -1,14 +1,14 @@
-package com.maxrave.simpmusic.adapter.queue
+package com.envoyz.riff.adapter.queue
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.databinding.ItemQueueTrackBinding
-import com.maxrave.simpmusic.extension.connectArtists
-import com.maxrave.simpmusic.extension.toListName
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.databinding.ItemQueueTrackBinding
+import com.envoyz.riff.extension.connectArtists
+import com.envoyz.riff.extension.toListName
 import java.util.Collections
 
 

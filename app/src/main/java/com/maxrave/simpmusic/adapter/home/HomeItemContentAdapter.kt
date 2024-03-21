@@ -1,20 +1,20 @@
-package com.maxrave.simpmusic.adapter.home
+package com.envoyz.riff.adapter.home
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.data.model.home.Content
-import com.maxrave.simpmusic.databinding.ItemHomeContentArtistBinding
-import com.maxrave.simpmusic.databinding.ItemHomeContentPlaylistBinding
-import com.maxrave.simpmusic.databinding.ItemHomeContentSongBinding
-import com.maxrave.simpmusic.databinding.ItemHomeContentVideoBinding
-import com.maxrave.simpmusic.extension.connectArtists
-import com.maxrave.simpmusic.extension.toListName
-import com.maxrave.simpmusic.extension.toTrack
+import com.envoyz.riff.R
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.data.model.home.Content
+import com.envoyz.riff.databinding.ItemHomeContentArtistBinding
+import com.envoyz.riff.databinding.ItemHomeContentPlaylistBinding
+import com.envoyz.riff.databinding.ItemHomeContentSongBinding
+import com.envoyz.riff.databinding.ItemHomeContentVideoBinding
+import com.envoyz.riff.extension.connectArtists
+import com.envoyz.riff.extension.toListName
+import com.envoyz.riff.extension.toTrack
 
 class HomeItemContentAdapter(private var listContent: ArrayList<Content>, private val context: Context): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     private lateinit var mPlaylistListener: onPlaylistItemClickListener

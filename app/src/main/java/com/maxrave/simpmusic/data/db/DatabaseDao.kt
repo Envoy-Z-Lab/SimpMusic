@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.data.db
+package com.envoyz.riff.data.db
 
 import androidx.room.Dao
 import androidx.room.Insert
@@ -7,22 +7,22 @@ import androidx.room.Query
 import androidx.room.RawQuery
 import androidx.room.Transaction
 import androidx.sqlite.db.SupportSQLiteQuery
-import com.maxrave.simpmusic.data.db.entities.AlbumEntity
-import com.maxrave.simpmusic.data.db.entities.ArtistEntity
-import com.maxrave.simpmusic.data.db.entities.FollowedArtistSingleAndAlbum
-import com.maxrave.simpmusic.data.db.entities.GoogleAccountEntity
-import com.maxrave.simpmusic.data.db.entities.LocalPlaylistEntity
-import com.maxrave.simpmusic.data.db.entities.LyricsEntity
-import com.maxrave.simpmusic.data.db.entities.NewFormatEntity
-import com.maxrave.simpmusic.data.db.entities.NotificationEntity
-import com.maxrave.simpmusic.data.db.entities.PairSongLocalPlaylist
-import com.maxrave.simpmusic.data.db.entities.PlaylistEntity
-import com.maxrave.simpmusic.data.db.entities.QueueEntity
-import com.maxrave.simpmusic.data.db.entities.SearchHistory
-import com.maxrave.simpmusic.data.db.entities.SetVideoIdEntity
-import com.maxrave.simpmusic.data.db.entities.SongEntity
-import com.maxrave.simpmusic.data.db.entities.SongInfoEntity
-import com.maxrave.simpmusic.extension.toSQLiteQuery
+import com.envoyz.riff.data.db.entities.AlbumEntity
+import com.envoyz.riff.data.db.entities.ArtistEntity
+import com.envoyz.riff.data.db.entities.FollowedArtistSingleAndAlbum
+import com.envoyz.riff.data.db.entities.GoogleAccountEntity
+import com.envoyz.riff.data.db.entities.LocalPlaylistEntity
+import com.envoyz.riff.data.db.entities.LyricsEntity
+import com.envoyz.riff.data.db.entities.NewFormatEntity
+import com.envoyz.riff.data.db.entities.NotificationEntity
+import com.envoyz.riff.data.db.entities.PairSongLocalPlaylist
+import com.envoyz.riff.data.db.entities.PlaylistEntity
+import com.envoyz.riff.data.db.entities.QueueEntity
+import com.envoyz.riff.data.db.entities.SearchHistory
+import com.envoyz.riff.data.db.entities.SetVideoIdEntity
+import com.envoyz.riff.data.db.entities.SongEntity
+import com.envoyz.riff.data.db.entities.SongInfoEntity
+import com.envoyz.riff.extension.toSQLiteQuery
 import kotlinx.coroutines.flow.Flow
 import java.time.LocalDateTime
 

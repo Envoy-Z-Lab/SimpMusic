@@ -1,4 +1,4 @@
-package com.maxrave.kotlinytmusicscraper.models.subscriptionButton
+package com.envoyz.kotlinytmusicscraper.models.subscriptionButton
 
 
 import kotlinx.serialization.SerialName

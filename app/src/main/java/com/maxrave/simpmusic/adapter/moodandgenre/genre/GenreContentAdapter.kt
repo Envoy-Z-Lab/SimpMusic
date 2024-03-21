@@ -1,11 +1,11 @@
-package com.maxrave.simpmusic.adapter.moodandgenre.genre
+package com.envoyz.riff.adapter.moodandgenre.genre
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.simpmusic.data.model.explore.mood.genre.Content
-import com.maxrave.simpmusic.databinding.ItemHomeContentPlaylistBinding
+import com.envoyz.riff.data.model.explore.mood.genre.Content
+import com.envoyz.riff.databinding.ItemHomeContentPlaylistBinding
 
 class GenreContentAdapter(private var contentList: ArrayList<Content>): RecyclerView.Adapter<GenreContentAdapter.ViewHolder>() {
     inner class ViewHolder(val binding: ItemHomeContentPlaylistBinding, var listener: OnClickListener): RecyclerView.ViewHolder(binding.root) {

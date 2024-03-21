@@ -1,7 +1,7 @@
-package com.maxrave.simpmusic.data.model.podcast
+package com.envoyz.riff.data.model.podcast
 
-import com.maxrave.simpmusic.data.model.searchResult.songs.Artist
-import com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail
+import com.envoyz.riff.data.model.searchResult.songs.Artist
+import com.envoyz.riff.data.model.searchResult.songs.Thumbnail
 
 data class PodcastBrowse(
     val title: String,

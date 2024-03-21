@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.fragment.other
+package com.envoyz.riff.ui.fragment.other
 
 import android.content.Intent
 import android.net.Uri
@@ -10,8 +10,8 @@ import android.view.ViewGroup
 import android.view.WindowInsets
 import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.fragment.findNavController
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.databinding.FragmentCreditBinding
+import com.envoyz.riff.R
+import com.envoyz.riff.databinding.FragmentCreditBinding
 import dagger.hilt.android.AndroidEntryPoint
 import dev.chrisbanes.insetter.Insetter
 
@@ -37,21 +37,21 @@ class CreditFragment : Fragment() {
         binding.btGithub.setOnClickListener {
             val urlIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("https://github.com/maxrave-dev/SimpMusic")
+                Uri.parse("https://github.com/envoyz-dev/SimpMusic")
             )
             startActivity(urlIntent)
         }
         binding.btIssue.setOnClickListener {
             val urlIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("https://github.com/maxrave-dev/SimpMusic/issues")
+                Uri.parse("https://github.com/envoyz-dev/SimpMusic/issues")
             )
             startActivity(urlIntent)
         }
         binding.btBuyMeACoffee.setOnClickListener {
             val urlIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("https://www.buymeacoffee.com/maxrave")
+                Uri.parse("https://www.buymeacoffee.com/envoyz")
             )
             startActivity(urlIntent)
         }

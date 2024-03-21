@@ -1,8 +1,8 @@
-package com.maxrave.simpmusic.data.model.home.chart
+package com.envoyz.riff.data.model.home.chart
 
 
 import com.google.gson.annotations.SerializedName
-import com.maxrave.simpmusic.data.model.browse.album.Track
+import com.envoyz.riff.data.model.browse.album.Track
 
 data class Chart(
     @SerializedName("artists")

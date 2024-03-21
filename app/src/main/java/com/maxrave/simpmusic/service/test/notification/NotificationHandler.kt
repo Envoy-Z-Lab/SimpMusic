@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.service.test.notification
+package com.envoyz.riff.service.test.notification
 
 import android.Manifest
 import android.app.NotificationChannel
@@ -18,8 +18,8 @@ import androidx.media3.common.util.UnstableApi
 import coil.ImageLoader
 import coil.request.ImageRequest
 import coil.request.SuccessResult
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.ui.MainActivity
+import com.envoyz.riff.R
+import com.envoyz.riff.ui.MainActivity
 import kotlinx.coroutines.runBlocking
 
 object NotificationHandler {
@@ -35,7 +35,7 @@ object NotificationHandler {
             Intent(context, MainActivity::class.java).apply {
                 flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             }
-        intent.action = "com.maxrave.simpmusic.service.test.notification.NOTIFICATION"
+        intent.action = "com.envoyz.riff.service.test.notification.NOTIFICATION"
         val pendingIntent =
             PendingIntent.getActivity(
                 context,

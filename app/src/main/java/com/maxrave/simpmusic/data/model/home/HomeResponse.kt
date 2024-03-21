@@ -1,8 +1,8 @@
-package com.maxrave.simpmusic.data.model.home
+package com.envoyz.riff.data.model.home
 
-import com.maxrave.simpmusic.data.model.explore.mood.Mood
-import com.maxrave.simpmusic.data.model.home.chart.Chart
-import com.maxrave.simpmusic.utils.Resource
+import com.envoyz.riff.data.model.explore.mood.Mood
+import com.envoyz.riff.data.model.home.chart.Chart
+import com.envoyz.riff.utils.Resource
 
 
 data class HomeResponse(

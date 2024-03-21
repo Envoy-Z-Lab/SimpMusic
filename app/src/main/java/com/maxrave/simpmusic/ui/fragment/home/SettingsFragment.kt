@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.fragment.home
+package com.envoyz.riff.ui.fragment.home
 
 import android.app.usage.StorageStatsManager
 import android.content.Intent
@@ -28,22 +28,22 @@ import coil.annotation.ExperimentalCoilApi
 import com.google.android.flexbox.FlexboxLayout
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.slider.Slider
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.adapter.account.AccountAdapter
-import com.maxrave.simpmusic.common.LIMIT_CACHE_SIZE
-import com.maxrave.simpmusic.common.LYRICS_PROVIDER
-import com.maxrave.simpmusic.common.QUALITY
-import com.maxrave.simpmusic.common.SPONSOR_BLOCK
-import com.maxrave.simpmusic.common.SUPPORTED_LANGUAGE
-import com.maxrave.simpmusic.common.SUPPORTED_LOCATION
-import com.maxrave.simpmusic.common.VIDEO_QUALITY
-import com.maxrave.simpmusic.data.dataStore.DataStoreManager
-import com.maxrave.simpmusic.databinding.FragmentSettingsBinding
-import com.maxrave.simpmusic.databinding.YoutubeAccountDialogBinding
-import com.maxrave.simpmusic.extension.navigateSafe
-import com.maxrave.simpmusic.extension.setEnabledAll
-import com.maxrave.simpmusic.viewModel.SettingsViewModel
-import com.maxrave.simpmusic.viewModel.SharedViewModel
+import com.envoyz.riff.R
+import com.envoyz.riff.adapter.account.AccountAdapter
+import com.envoyz.riff.common.LIMIT_CACHE_SIZE
+import com.envoyz.riff.common.LYRICS_PROVIDER
+import com.envoyz.riff.common.QUALITY
+import com.envoyz.riff.common.SPONSOR_BLOCK
+import com.envoyz.riff.common.SUPPORTED_LANGUAGE
+import com.envoyz.riff.common.SUPPORTED_LOCATION
+import com.envoyz.riff.common.VIDEO_QUALITY
+import com.envoyz.riff.data.dataStore.DataStoreManager
+import com.envoyz.riff.databinding.FragmentSettingsBinding
+import com.envoyz.riff.databinding.YoutubeAccountDialogBinding
+import com.envoyz.riff.extension.navigateSafe
+import com.envoyz.riff.extension.setEnabledAll
+import com.envoyz.riff.viewModel.SettingsViewModel
+import com.envoyz.riff.viewModel.SharedViewModel
 import com.mikepenz.aboutlibraries.Libs
 import com.mikepenz.aboutlibraries.LibsBuilder
 import dagger.hilt.android.AndroidEntryPoint
@@ -588,14 +588,14 @@ class SettingsFragment : Fragment() {
         binding.btGithub.setOnClickListener {
             val urlIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("https://github.com/maxrave-dev/")
+                Uri.parse("https://github.com/envoyz-dev/")
             )
             startActivity(urlIntent)
         }
         binding.btDonate.setOnClickListener {
             val urlIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("https://paypal.me/maxraveofficial")
+                Uri.parse("https://paypal.me/envoyzofficial")
             )
             startActivity(urlIntent)
         }

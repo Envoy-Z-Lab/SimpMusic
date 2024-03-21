@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.data.db
+package com.envoyz.riff.data.db
 
 import androidx.room.DeleteTable
 import androidx.room.migration.AutoMigrationSpec

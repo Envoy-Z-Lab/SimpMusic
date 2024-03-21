@@ -1,7 +1,7 @@
-package com.maxrave.kotlinytmusicscraper.models.body
+package com.envoyz.kotlinytmusicscraper.models.body
 
-import com.maxrave.kotlinytmusicscraper.models.Context
-import com.maxrave.kotlinytmusicscraper.models.WatchEndpoint
+import com.envoyz.kotlinytmusicscraper.models.Context
+import com.envoyz.kotlinytmusicscraper.models.WatchEndpoint
 import kotlinx.serialization.Serializable
 
 @Serializable

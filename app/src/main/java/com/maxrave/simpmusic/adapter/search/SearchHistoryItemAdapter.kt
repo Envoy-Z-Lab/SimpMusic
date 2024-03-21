@@ -1,9 +1,9 @@
-package com.maxrave.simpmusic.adapter.search
+package com.envoyz.riff.adapter.search
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.maxrave.simpmusic.databinding.ItemRecentlyQueryBinding
+import com.envoyz.riff.databinding.ItemRecentlyQueryBinding
 
 class SearchHistoryItemAdapter(private var searchHistory: ArrayList<String>): RecyclerView.Adapter<SearchHistoryItemAdapter.ViewHolder>() {
 

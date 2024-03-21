@@ -1,9 +1,9 @@
-package com.maxrave.simpmusic.adapter.search
+package com.envoyz.riff.adapter.search
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.maxrave.simpmusic.databinding.ItemSuggestQueryBinding
+import com.envoyz.riff.databinding.ItemSuggestQueryBinding
 
 class SuggestQueryAdapter(private var suggestQuery: ArrayList<String>): RecyclerView.Adapter<SuggestQueryAdapter.ViewHolder>() {
     private lateinit var mListener: onItemClickListener

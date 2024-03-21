@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui
+package com.envoyz.riff.ui
 
 import android.Manifest
 import android.content.ComponentName
@@ -42,29 +42,29 @@ import coil.size.Size
 import coil.transform.Transformation
 import com.daimajia.swipe.SwipeLayout
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.maxrave.kotlinytmusicscraper.YouTube
-import com.maxrave.kotlinytmusicscraper.models.YouTubeLocale
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.common.Config
-import com.maxrave.simpmusic.common.FIRST_TIME_MIGRATION
-import com.maxrave.simpmusic.common.SELECTED_LANGUAGE
-import com.maxrave.simpmusic.common.SPONSOR_BLOCK
-import com.maxrave.simpmusic.common.STATUS_DONE
-import com.maxrave.simpmusic.common.SUPPORTED_LANGUAGE
-import com.maxrave.simpmusic.common.SUPPORTED_LOCATION
-import com.maxrave.simpmusic.data.dataStore.DataStoreManager
-import com.maxrave.simpmusic.data.dataStore.DataStoreManager.Settings.RESTORE_LAST_PLAYED_TRACK_AND_QUEUE_DONE
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.data.queue.Queue
-import com.maxrave.simpmusic.data.repository.MainRepository
-import com.maxrave.simpmusic.databinding.ActivityMainBinding
-import com.maxrave.simpmusic.extension.isMyServiceRunning
-import com.maxrave.simpmusic.extension.navigateSafe
-import com.maxrave.simpmusic.extension.setTextAnimation
-import com.maxrave.simpmusic.service.SimpleMediaService
-import com.maxrave.simpmusic.service.SimpleMediaServiceHandler
-import com.maxrave.simpmusic.viewModel.SharedViewModel
-import com.maxrave.simpmusic.viewModel.UIEvent
+import com.envoyz.kotlinytmusicscraper.YouTube
+import com.envoyz.kotlinytmusicscraper.models.YouTubeLocale
+import com.envoyz.riff.R
+import com.envoyz.riff.common.Config
+import com.envoyz.riff.common.FIRST_TIME_MIGRATION
+import com.envoyz.riff.common.SELECTED_LANGUAGE
+import com.envoyz.riff.common.SPONSOR_BLOCK
+import com.envoyz.riff.common.STATUS_DONE
+import com.envoyz.riff.common.SUPPORTED_LANGUAGE
+import com.envoyz.riff.common.SUPPORTED_LOCATION
+import com.envoyz.riff.data.dataStore.DataStoreManager
+import com.envoyz.riff.data.dataStore.DataStoreManager.Settings.RESTORE_LAST_PLAYED_TRACK_AND_QUEUE_DONE
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.data.queue.Queue
+import com.envoyz.riff.data.repository.MainRepository
+import com.envoyz.riff.databinding.ActivityMainBinding
+import com.envoyz.riff.extension.isMyServiceRunning
+import com.envoyz.riff.extension.navigateSafe
+import com.envoyz.riff.extension.setTextAnimation
+import com.envoyz.riff.service.SimpleMediaService
+import com.envoyz.riff.service.SimpleMediaServiceHandler
+import com.envoyz.riff.viewModel.SharedViewModel
+import com.envoyz.riff.viewModel.UIEvent
 import dagger.hilt.android.AndroidEntryPoint
 import dev.chrisbanes.insetter.applyInsetter
 import kotlinx.coroutines.delay
@@ -471,15 +471,15 @@ class MainActivity : AppCompatActivity() {
             }
         }
         when (action) {
-            "com.maxrave.simpmusic.action.HOME" -> {
+            "com.envoyz.riff.action.HOME" -> {
                 binding.bottomNavigationView.selectedItemId = R.id.bottom_navigation_item_home
             }
 
-            "com.maxrave.simpmusic.action.SEARCH" -> {
+            "com.envoyz.riff.action.SEARCH" -> {
                 binding.bottomNavigationView.selectedItemId = R.id.bottom_navigation_item_search
             }
 
-            "com.maxrave.simpmusic.action.LIBRARY" -> {
+            "com.envoyz.riff.action.LIBRARY" -> {
                 binding.bottomNavigationView.selectedItemId = R.id.bottom_navigation_item_library
             }
 
@@ -588,7 +588,7 @@ class MainActivity : AppCompatActivity() {
                 launch {
                     viewModel.intent.collectLatest { intent ->
                         if (intent != null) {
-                            if (intent.action == "com.maxrave.simpmusic.service.test.notification.NOTIFICATION") {
+                            if (intent.action == "com.envoyz.riff.service.test.notification.NOTIFICATION") {
                                 navController.navigateSafe(R.id.action_global_notificationFragment)
                             }
                             data = intent.data ?: intent.getStringExtra(Intent.EXTRA_TEXT)?.toUri()

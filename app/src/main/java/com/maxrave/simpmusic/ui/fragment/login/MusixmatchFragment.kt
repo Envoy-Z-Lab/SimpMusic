@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.fragment.login
+package com.envoyz.riff.ui.fragment.login
 
 import android.os.Bundle
 import android.util.Log
@@ -15,13 +15,13 @@ import androidx.media3.common.util.UnstableApi
 import androidx.navigation.fragment.findNavController
 import com.daimajia.swipe.SwipeLayout
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.maxrave.kotlinytmusicscraper.YouTube
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.databinding.FragmentMusixmatchBinding
-import com.maxrave.simpmusic.extension.isMyServiceRunning
-import com.maxrave.simpmusic.service.SimpleMediaService
-import com.maxrave.simpmusic.viewModel.MusixmatchViewModel
-import com.maxrave.simpmusic.viewModel.SharedViewModel
+import com.envoyz.kotlinytmusicscraper.YouTube
+import com.envoyz.riff.R
+import com.envoyz.riff.databinding.FragmentMusixmatchBinding
+import com.envoyz.riff.extension.isMyServiceRunning
+import com.envoyz.riff.service.SimpleMediaService
+import com.envoyz.riff.viewModel.MusixmatchViewModel
+import com.envoyz.riff.viewModel.SharedViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import dev.chrisbanes.insetter.applyInsetter
 import kotlinx.coroutines.delay

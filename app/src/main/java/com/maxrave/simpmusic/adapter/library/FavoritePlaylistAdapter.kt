@@ -1,18 +1,18 @@
-package com.maxrave.simpmusic.adapter.library
+package com.envoyz.riff.adapter.library
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.common.DownloadState
-import com.maxrave.simpmusic.data.db.entities.AlbumEntity
-import com.maxrave.simpmusic.data.db.entities.LocalPlaylistEntity
-import com.maxrave.simpmusic.data.db.entities.PlaylistEntity
-import com.maxrave.simpmusic.data.model.searchResult.playlists.PlaylistsResult
-import com.maxrave.simpmusic.databinding.ItemYourPlaylistBinding
-import com.maxrave.simpmusic.extension.connectArtists
+import com.envoyz.riff.R
+import com.envoyz.riff.common.DownloadState
+import com.envoyz.riff.data.db.entities.AlbumEntity
+import com.envoyz.riff.data.db.entities.LocalPlaylistEntity
+import com.envoyz.riff.data.db.entities.PlaylistEntity
+import com.envoyz.riff.data.model.searchResult.playlists.PlaylistsResult
+import com.envoyz.riff.databinding.ItemYourPlaylistBinding
+import com.envoyz.riff.extension.connectArtists
 
 class FavoritePlaylistAdapter(private var listPlaylist: ArrayList<Any>, private val context: Context) : RecyclerView.Adapter<RecyclerView.ViewHolder>(){
     private lateinit var mListener: OnItemClickListener

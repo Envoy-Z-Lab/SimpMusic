@@ -1,6 +1,6 @@
-package com.maxrave.kotlinytmusicscraper.pages
+package com.envoyz.kotlinytmusicscraper.pages
 
-import com.maxrave.kotlinytmusicscraper.models.SongItem
+import com.envoyz.kotlinytmusicscraper.models.SongItem
 
 data class PlaylistContinuationPage(
     val songs: List<SongItem>,

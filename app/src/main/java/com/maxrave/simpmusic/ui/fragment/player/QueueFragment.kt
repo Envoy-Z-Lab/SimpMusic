@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.fragment.player
+package com.envoyz.riff.ui.fragment.player
 
 import android.app.Dialog
 import android.os.Bundle
@@ -17,14 +17,14 @@ import coil.load
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.adapter.queue.QueueAdapter
-import com.maxrave.simpmusic.adapter.queue.RecyclerRowMoveCallback
-import com.maxrave.simpmusic.databinding.BottomSheetQueueTrackOptionBinding
-import com.maxrave.simpmusic.databinding.QueueBottomSheetBinding
-import com.maxrave.simpmusic.extension.setEnabledAll
-import com.maxrave.simpmusic.service.StateSource
-import com.maxrave.simpmusic.viewModel.SharedViewModel
+import com.envoyz.riff.R
+import com.envoyz.riff.adapter.queue.QueueAdapter
+import com.envoyz.riff.adapter.queue.RecyclerRowMoveCallback
+import com.envoyz.riff.databinding.BottomSheetQueueTrackOptionBinding
+import com.envoyz.riff.databinding.QueueBottomSheetBinding
+import com.envoyz.riff.extension.setEnabledAll
+import com.envoyz.riff.service.StateSource
+import com.envoyz.riff.viewModel.SharedViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch

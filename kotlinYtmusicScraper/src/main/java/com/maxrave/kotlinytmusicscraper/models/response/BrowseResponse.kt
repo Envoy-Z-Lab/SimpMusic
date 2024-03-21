@@ -1,15 +1,15 @@
-package com.maxrave.kotlinytmusicscraper.models.response
+package com.envoyz.kotlinytmusicscraper.models.response
 
-import com.maxrave.kotlinytmusicscraper.models.Button
-import com.maxrave.kotlinytmusicscraper.models.Continuation
-import com.maxrave.kotlinytmusicscraper.models.Menu
-import com.maxrave.kotlinytmusicscraper.models.MusicShelfRenderer
-import com.maxrave.kotlinytmusicscraper.models.ResponseContext
-import com.maxrave.kotlinytmusicscraper.models.Runs
-import com.maxrave.kotlinytmusicscraper.models.SectionListRenderer
-import com.maxrave.kotlinytmusicscraper.models.SubscriptionButton
-import com.maxrave.kotlinytmusicscraper.models.Tabs
-import com.maxrave.kotlinytmusicscraper.models.ThumbnailRenderer
+import com.envoyz.kotlinytmusicscraper.models.Button
+import com.envoyz.kotlinytmusicscraper.models.Continuation
+import com.envoyz.kotlinytmusicscraper.models.Menu
+import com.envoyz.kotlinytmusicscraper.models.MusicShelfRenderer
+import com.envoyz.kotlinytmusicscraper.models.ResponseContext
+import com.envoyz.kotlinytmusicscraper.models.Runs
+import com.envoyz.kotlinytmusicscraper.models.SectionListRenderer
+import com.envoyz.kotlinytmusicscraper.models.SubscriptionButton
+import com.envoyz.kotlinytmusicscraper.models.Tabs
+import com.envoyz.kotlinytmusicscraper.models.ThumbnailRenderer
 import kotlinx.serialization.Serializable
 
 @Serializable

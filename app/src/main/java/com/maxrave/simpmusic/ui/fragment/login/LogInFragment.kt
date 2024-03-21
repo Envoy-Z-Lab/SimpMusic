@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.fragment.login
+package com.envoyz.riff.ui.fragment.login
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -18,14 +18,14 @@ import androidx.media3.common.util.UnstableApi
 import androidx.navigation.fragment.findNavController
 import com.daimajia.swipe.SwipeLayout
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.common.Config
-import com.maxrave.simpmusic.databinding.FragmentLogInBinding
-import com.maxrave.simpmusic.extension.isMyServiceRunning
-import com.maxrave.simpmusic.service.SimpleMediaService
-import com.maxrave.simpmusic.viewModel.LogInViewModel
-import com.maxrave.simpmusic.viewModel.SettingsViewModel
-import com.maxrave.simpmusic.viewModel.SharedViewModel
+import com.envoyz.riff.R
+import com.envoyz.riff.common.Config
+import com.envoyz.riff.databinding.FragmentLogInBinding
+import com.envoyz.riff.extension.isMyServiceRunning
+import com.envoyz.riff.service.SimpleMediaService
+import com.envoyz.riff.viewModel.LogInViewModel
+import com.envoyz.riff.viewModel.SettingsViewModel
+import com.envoyz.riff.viewModel.SharedViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import dev.chrisbanes.insetter.applyInsetter
 import kotlinx.coroutines.flow.first

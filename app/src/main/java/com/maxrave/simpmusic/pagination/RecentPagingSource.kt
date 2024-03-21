@@ -1,8 +1,8 @@
-package com.maxrave.simpmusic.pagination
+package com.envoyz.riff.pagination
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.maxrave.simpmusic.data.repository.MainRepository
+import com.envoyz.riff.data.repository.MainRepository
 import kotlinx.coroutines.delay
 
 class RecentPagingSource (private val mainRepository: MainRepository): PagingSource<Int, Any>() {

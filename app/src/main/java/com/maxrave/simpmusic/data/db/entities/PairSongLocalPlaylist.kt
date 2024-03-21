@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.data.db.entities
+package com.envoyz.riff.data.db.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

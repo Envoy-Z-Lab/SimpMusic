@@ -1,12 +1,12 @@
-package com.maxrave.simpmusic.adapter.home.chart
+package com.envoyz.riff.adapter.home.chart
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.simpmusic.data.model.home.chart.ItemVideo
-import com.maxrave.simpmusic.databinding.ItemTrackChartBinding
+import com.envoyz.riff.data.model.home.chart.ItemVideo
+import com.envoyz.riff.databinding.ItemTrackChartBinding
 
 class TrackChartAdapter( var trackList: ArrayList<ItemVideo>, val context: Context): RecyclerView.Adapter<TrackChartAdapter.ViewHolder>() {
     inner class ViewHolder(val binding: ItemTrackChartBinding, listener: SetOnItemClickListener): RecyclerView.ViewHolder(binding.root) {

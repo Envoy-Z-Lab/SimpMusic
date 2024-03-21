@@ -1,8 +1,8 @@
-package com.maxrave.simpmusic.data.db.entities
+package com.envoyz.riff.data.db.entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.maxrave.simpmusic.common.DownloadState.STATE_NOT_DOWNLOADED
+import com.envoyz.riff.common.DownloadState.STATE_NOT_DOWNLOADED
 import java.time.LocalDateTime
 
 @Entity(tableName = "song")

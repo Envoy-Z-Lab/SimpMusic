@@ -1,7 +1,7 @@
-package com.maxrave.kotlinytmusicscraper.models.youtube
+package com.envoyz.kotlinytmusicscraper.models.youtube
 
 
-import com.maxrave.kotlinytmusicscraper.models.Thumbnail
+import com.envoyz.kotlinytmusicscraper.models.Thumbnail
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

@@ -1,19 +1,19 @@
-package com.maxrave.simpmusic.data.parser
+package com.envoyz.riff.data.parser
 
 import android.content.Context
 import android.util.Log
-import com.maxrave.kotlinytmusicscraper.models.MusicShelfRenderer
-import com.maxrave.kotlinytmusicscraper.models.response.BrowseResponse
-import com.maxrave.kotlinytmusicscraper.models.response.SearchResponse
-import com.maxrave.kotlinytmusicscraper.pages.PodcastItem
-import com.maxrave.simpmusic.data.db.entities.SetVideoIdEntity
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.data.model.browse.playlist.Author
-import com.maxrave.simpmusic.data.model.browse.playlist.PlaylistBrowse
-import com.maxrave.simpmusic.data.model.podcast.PodcastBrowse
-import com.maxrave.simpmusic.data.model.searchResult.playlists.PlaylistsResult
-import com.maxrave.simpmusic.data.model.searchResult.songs.Artist
-import com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail
+import com.envoyz.kotlinytmusicscraper.models.MusicShelfRenderer
+import com.envoyz.kotlinytmusicscraper.models.response.BrowseResponse
+import com.envoyz.kotlinytmusicscraper.models.response.SearchResponse
+import com.envoyz.kotlinytmusicscraper.pages.PodcastItem
+import com.envoyz.riff.data.db.entities.SetVideoIdEntity
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.data.model.browse.playlist.Author
+import com.envoyz.riff.data.model.browse.playlist.PlaylistBrowse
+import com.envoyz.riff.data.model.podcast.PodcastBrowse
+import com.envoyz.riff.data.model.searchResult.playlists.PlaylistsResult
+import com.envoyz.riff.data.model.searchResult.songs.Artist
+import com.envoyz.riff.data.model.searchResult.songs.Thumbnail
 
 fun parsePlaylistData(
     header: Any?,

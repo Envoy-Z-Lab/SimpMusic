@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic
+package com.envoyz.riff
 
 import android.app.Application
 import android.util.Log
@@ -7,7 +7,7 @@ import androidx.hilt.work.HiltWorkerFactory
 import androidx.media3.common.util.UnstableApi
 import androidx.work.Configuration
 import cat.ereza.customactivityoncrash.config.CaocConfig
-import com.maxrave.simpmusic.ui.MainActivity
+import com.envoyz.riff.ui.MainActivity
 import dagger.hilt.android.HiltAndroidApp
 import javax.inject.Inject
 

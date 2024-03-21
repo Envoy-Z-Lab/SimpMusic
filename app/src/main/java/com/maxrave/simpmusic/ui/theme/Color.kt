@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.theme
+package com.envoyz.riff.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

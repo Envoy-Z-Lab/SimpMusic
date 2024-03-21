@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.pagination
+package com.envoyz.riff.pagination
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -9,17 +9,17 @@ import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.common.Config
-import com.maxrave.simpmusic.data.db.entities.AlbumEntity
-import com.maxrave.simpmusic.data.db.entities.ArtistEntity
-import com.maxrave.simpmusic.data.db.entities.PlaylistEntity
-import com.maxrave.simpmusic.data.db.entities.SongEntity
-import com.maxrave.simpmusic.databinding.ItemAlbumSearchResultBinding
-import com.maxrave.simpmusic.databinding.ItemArtistSearchResultBinding
-import com.maxrave.simpmusic.databinding.ItemPlaylistSearchResultBinding
-import com.maxrave.simpmusic.databinding.ItemSongsSearchResultBinding
-import com.maxrave.simpmusic.extension.connectArtists
+import com.envoyz.riff.R
+import com.envoyz.riff.common.Config
+import com.envoyz.riff.data.db.entities.AlbumEntity
+import com.envoyz.riff.data.db.entities.ArtistEntity
+import com.envoyz.riff.data.db.entities.PlaylistEntity
+import com.envoyz.riff.data.db.entities.SongEntity
+import com.envoyz.riff.databinding.ItemAlbumSearchResultBinding
+import com.envoyz.riff.databinding.ItemArtistSearchResultBinding
+import com.envoyz.riff.databinding.ItemPlaylistSearchResultBinding
+import com.envoyz.riff.databinding.ItemSongsSearchResultBinding
+import com.envoyz.riff.extension.connectArtists
 
 class RecentPagingAdapter(private val context: Context): PagingDataAdapter<Any, RecyclerView.ViewHolder>(DIFF_CALLBACK) {
     companion object DIFF_CALLBACK : DiffUtil.ItemCallback<Any>() {

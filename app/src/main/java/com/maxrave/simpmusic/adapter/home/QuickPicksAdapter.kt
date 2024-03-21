@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.adapter.home
+package com.envoyz.riff.adapter.home
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,9 +6,9 @@ import android.view.ViewGroup
 import androidx.navigation.NavController
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.data.model.home.Content
-import com.maxrave.simpmusic.databinding.ItemQuickPicksBinding
+import com.envoyz.riff.R
+import com.envoyz.riff.data.model.home.Content
+import com.envoyz.riff.databinding.ItemQuickPicksBinding
 
 class QuickPicksAdapter(val contentList: ArrayList<Content>, val context: Context, val navController: NavController): RecyclerView.Adapter<QuickPicksAdapter.ViewHolder>() {
     inner class ViewHolder(val binding: ItemQuickPicksBinding, listener: OnClickListener): RecyclerView.ViewHolder(binding.root) {

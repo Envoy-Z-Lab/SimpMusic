@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.widget
+package com.envoyz.riff.ui.widget
 
 import android.app.PendingIntent
 import android.content.Context
@@ -8,9 +8,9 @@ import android.util.Log
 import android.view.View
 import android.widget.RemoteViews
 import androidx.media3.common.util.UnstableApi
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.service.SimpleMediaServiceHandler
-import com.maxrave.simpmusic.ui.MainActivity
+import com.envoyz.riff.R
+import com.envoyz.riff.service.SimpleMediaServiceHandler
+import com.envoyz.riff.ui.MainActivity
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 
@@ -181,9 +181,9 @@ class BasicWidget : BaseAppWidget() {
     companion object {
 
         const val NAME: String = "basic_widget"
-        const val ACTION_TOGGLE_PAUSE = "com.maxrave.simpmusic.action.TOGGLE_PAUSE"
-        const val ACTION_REWIND = "com.maxrave.simpmusic.action.REWIND"
-        const val ACTION_SKIP = "com.maxrave.simpmusic.action.SKIP"
+        const val ACTION_TOGGLE_PAUSE = "com.envoyz.riff.action.TOGGLE_PAUSE"
+        const val ACTION_REWIND = "com.envoyz.riff.action.REWIND"
+        const val ACTION_SKIP = "com.envoyz.riff.action.SKIP"
         private var mInstance: BasicWidget? = null
 
         val instance: BasicWidget

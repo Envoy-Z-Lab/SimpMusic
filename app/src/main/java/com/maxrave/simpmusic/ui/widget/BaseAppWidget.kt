@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.widget
+package com.envoyz.riff.ui.widget
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -8,8 +8,8 @@ import android.content.Context
 import android.content.Intent
 import android.widget.RemoteViews
 import androidx.media3.common.util.UnstableApi
-import com.maxrave.simpmusic.service.SimpleMediaService
-import com.maxrave.simpmusic.service.SimpleMediaServiceHandler
+import com.envoyz.riff.service.SimpleMediaService
+import com.envoyz.riff.service.SimpleMediaServiceHandler
 
 abstract class BaseAppWidget : AppWidgetProvider() {
 

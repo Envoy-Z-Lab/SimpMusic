@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.extension
+package com.envoyz.riff.extension
 
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable
@@ -23,8 +23,8 @@ import androidx.compose.ui.graphics.drawscope.ContentDrawScope
 import androidx.compose.ui.graphics.drawscope.drawIntoCanvas
 import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.unit.IntSize
-import com.maxrave.simpmusic.ui.theme.shimmerBackground
-import com.maxrave.simpmusic.ui.theme.shimmerLine
+import com.envoyz.riff.ui.theme.shimmerBackground
+import com.envoyz.riff.ui.theme.shimmerLine
 import kotlin.random.Random
 
 fun generateRandomColor(): Color {

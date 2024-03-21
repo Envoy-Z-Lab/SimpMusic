@@ -118,7 +118,7 @@
     <string name="about_us">Về tôi</string>
     <string name="version">Phiên bản</string>
     <string name="github">Github</string>
-    <string name="maxrave_dev">maxrave-dev</string>
+    <string name="envoyz_dev">envoyz-dev</string>
     <string name="buy_me_a_coffee">Hỗ trợ tôi</string>
     <string name="paypal">PayPal</string>
     <string name="title">Tiêu đề</string>
@@ -245,7 +245,7 @@
     <string name="main_lyrics_provider">Nguồn cung cấp lời bài hát chính</string>
     <string name="log_in_to_Musixmatch">Đăng nhập vào Musixmatch</string>
     <string name="only_support_email_and_password_type">Chỉ hỗ trợ đăng nhập bằng email và mật khẩu</string>
-    <string name="musixmatch_login_description">Musixmatch Dịch API chỉ hoạt động cho người dùng đã đăng nhập. Thêm thông tin về Musixmatch Developer API, đi tới https://github.com/maxrave-dev/SimpMusic hoặc https://developer.musixmatch.com/</string>
+    <string name="musixmatch_login_description">Musixmatch Dịch API chỉ hoạt động cho người dùng đã đăng nhập. Thêm thông tin về Musixmatch Developer API, đi tới https://github.com/envoyz-dev/SimpMusic hoặc https://developer.musixmatch.com/</string>
     <string name="use_musixmatch_translation">Sử dụng hệ thống dịch của Musixmatch</string>
     <string name="use_musixmatch_translation_description">Bật dịch bài hát sử dụng Musixmatch. Yêu cầu đăng nhập</string>
     <string name="translation_language">Ngôn ngữ dịch</string>
@@ -268,7 +268,7 @@
     <string name="suggest">Đề xuất</string>
     <string name="reload">Làm mới</string>
     <string name="added_date">Ngày thêm vào</string>
-    <string name="credit_app">Một ứng dụng âm nhạc đơn giản sử dụng dữ liệu từ YouTube Music \n\nSimpMusic là một dự án nguồn mở để phát nhạc từ YouTube và YouTube Music mà không bị quảng cáo và theo dõi. SimpMusic cung cấp nhiều tính năng:\n\n - Phát nhạc \n - Lời bài hát được đồng bộ hóa\n - Cá nhân hóa dữ liệu\n - v.v… \n\nSimpMusic luôn miễn phí và không có quảng cáo\n\nXây dựng với ❤️ bởi Nguyên Đức Tuấn Minh (maxrave-dev)</string>
+    <string name="credit_app">Một ứng dụng âm nhạc đơn giản sử dụng dữ liệu từ YouTube Music \n\nSimpMusic là một dự án nguồn mở để phát nhạc từ YouTube và YouTube Music mà không bị quảng cáo và theo dõi. SimpMusic cung cấp nhiều tính năng:\n\n - Phát nhạc \n - Lời bài hát được đồng bộ hóa\n - Cá nhân hóa dữ liệu\n - v.v… \n\nSimpMusic luôn miễn phí và không có quảng cáo\n\nXây dựng với ❤️ bởi Nguyên Đức Tuấn Minh (envoyz-dev)</string>
     <string name="issue_tracker">Theo dõi lỗi</string>
     <string name="featured_playlists">Danh sách phát nổi bật</string>
     <string name="featured_inArtist">Nổi bật</string>

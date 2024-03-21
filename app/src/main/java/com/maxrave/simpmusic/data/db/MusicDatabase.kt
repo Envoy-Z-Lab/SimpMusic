@@ -1,24 +1,24 @@
-package com.maxrave.simpmusic.data.db
+package com.envoyz.riff.data.db
 
 import androidx.room.AutoMigration
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.maxrave.simpmusic.data.db.entities.AlbumEntity
-import com.maxrave.simpmusic.data.db.entities.ArtistEntity
-import com.maxrave.simpmusic.data.db.entities.FollowedArtistSingleAndAlbum
-import com.maxrave.simpmusic.data.db.entities.GoogleAccountEntity
-import com.maxrave.simpmusic.data.db.entities.LocalPlaylistEntity
-import com.maxrave.simpmusic.data.db.entities.LyricsEntity
-import com.maxrave.simpmusic.data.db.entities.NewFormatEntity
-import com.maxrave.simpmusic.data.db.entities.NotificationEntity
-import com.maxrave.simpmusic.data.db.entities.PairSongLocalPlaylist
-import com.maxrave.simpmusic.data.db.entities.PlaylistEntity
-import com.maxrave.simpmusic.data.db.entities.QueueEntity
-import com.maxrave.simpmusic.data.db.entities.SearchHistory
-import com.maxrave.simpmusic.data.db.entities.SetVideoIdEntity
-import com.maxrave.simpmusic.data.db.entities.SongEntity
-import com.maxrave.simpmusic.data.db.entities.SongInfoEntity
+import com.envoyz.riff.data.db.entities.AlbumEntity
+import com.envoyz.riff.data.db.entities.ArtistEntity
+import com.envoyz.riff.data.db.entities.FollowedArtistSingleAndAlbum
+import com.envoyz.riff.data.db.entities.GoogleAccountEntity
+import com.envoyz.riff.data.db.entities.LocalPlaylistEntity
+import com.envoyz.riff.data.db.entities.LyricsEntity
+import com.envoyz.riff.data.db.entities.NewFormatEntity
+import com.envoyz.riff.data.db.entities.NotificationEntity
+import com.envoyz.riff.data.db.entities.PairSongLocalPlaylist
+import com.envoyz.riff.data.db.entities.PlaylistEntity
+import com.envoyz.riff.data.db.entities.QueueEntity
+import com.envoyz.riff.data.db.entities.SearchHistory
+import com.envoyz.riff.data.db.entities.SetVideoIdEntity
+import com.envoyz.riff.data.db.entities.SongEntity
+import com.envoyz.riff.data.db.entities.SongInfoEntity
 
 @Database(
     entities = [NewFormatEntity::class, SongInfoEntity::class, SearchHistory::class, SongEntity::class, ArtistEntity::class, AlbumEntity::class, PlaylistEntity::class, LocalPlaylistEntity::class, LyricsEntity::class, QueueEntity::class, SetVideoIdEntity::class, PairSongLocalPlaylist::class, GoogleAccountEntity::class, FollowedArtistSingleAndAlbum::class, NotificationEntity::class],

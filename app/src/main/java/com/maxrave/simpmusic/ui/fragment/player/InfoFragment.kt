@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.fragment.player
+package com.envoyz.riff.ui.fragment.player
 
 import android.app.Dialog
 import android.os.Bundle
@@ -15,12 +15,12 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.databinding.InfoFragmentBinding
-import com.maxrave.simpmusic.extension.connectArtists
-import com.maxrave.simpmusic.extension.navigateSafe
-import com.maxrave.simpmusic.extension.toListName
-import com.maxrave.simpmusic.viewModel.SharedViewModel
+import com.envoyz.riff.R
+import com.envoyz.riff.databinding.InfoFragmentBinding
+import com.envoyz.riff.extension.connectArtists
+import com.envoyz.riff.extension.navigateSafe
+import com.envoyz.riff.extension.toListName
+import com.envoyz.riff.viewModel.SharedViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 

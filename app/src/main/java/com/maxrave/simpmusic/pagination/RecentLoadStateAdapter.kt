@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.pagination
+package com.envoyz.riff.pagination
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.paging.LoadState
 import androidx.paging.LoadStateAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.maxrave.simpmusic.databinding.LoadStateViewBinding
+import com.envoyz.riff.databinding.LoadStateViewBinding
 
 class RecentLoadStateAdapter: LoadStateAdapter<RecentLoadStateAdapter.ViewHolder>() {
     inner class ViewHolder(val binding: LoadStateViewBinding): RecyclerView.ViewHolder(binding.root)

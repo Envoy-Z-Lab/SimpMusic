@@ -1,11 +1,11 @@
-package com.maxrave.simpmusic.adapter.account
+package com.envoyz.riff.adapter.account
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.simpmusic.data.db.entities.GoogleAccountEntity
-import com.maxrave.simpmusic.databinding.ItemAccountBinding
+import com.envoyz.riff.data.db.entities.GoogleAccountEntity
+import com.envoyz.riff.databinding.ItemAccountBinding
 
 class AccountAdapter(private val accountList: ArrayList<GoogleAccountEntity>) :
     RecyclerView.Adapter<AccountAdapter.AccountViewHolder>() {

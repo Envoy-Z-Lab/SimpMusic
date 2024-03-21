@@ -1,12 +1,12 @@
-package com.maxrave.simpmusic.adapter.artist
+package com.envoyz.riff.adapter.artist
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.data.model.browse.artist.ResultSingle
-import com.maxrave.simpmusic.databinding.ItemSinglesBinding
+import com.envoyz.riff.R
+import com.envoyz.riff.data.model.browse.artist.ResultSingle
+import com.envoyz.riff.databinding.ItemSinglesBinding
 
 class SinglesAdapter(private var singleList: ArrayList<ResultSingle>): RecyclerView.Adapter<SinglesAdapter.ViewHolder>() {
     private lateinit var mListener: OnItemClickListener

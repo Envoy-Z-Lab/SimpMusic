@@ -1,13 +1,13 @@
-package com.maxrave.simpmusic.adapter.lyrics
+package com.envoyz.riff.adapter.lyrics
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.maxrave.simpmusic.data.model.metadata.Line
-import com.maxrave.simpmusic.data.model.metadata.Lyrics
-import com.maxrave.simpmusic.databinding.ItemLyricsActiveBinding
-import com.maxrave.simpmusic.databinding.ItemLyricsNormalBinding
+import com.envoyz.riff.data.model.metadata.Line
+import com.envoyz.riff.data.model.metadata.Lyrics
+import com.envoyz.riff.databinding.ItemLyricsActiveBinding
+import com.envoyz.riff.databinding.ItemLyricsNormalBinding
 
 class LyricsAdapter(private var originalLyrics: Lyrics?, var translated: Lyrics? = null): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 

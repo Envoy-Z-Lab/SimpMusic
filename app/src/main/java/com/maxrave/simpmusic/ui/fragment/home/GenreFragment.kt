@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.fragment.home
+package com.envoyz.riff.ui.fragment.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,11 +10,11 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
-import com.maxrave.simpmusic.adapter.moodandgenre.genre.GenreItemAdapter
-import com.maxrave.simpmusic.data.model.explore.mood.genre.ItemsPlaylist
-import com.maxrave.simpmusic.databinding.MoodMomentDialogBinding
-import com.maxrave.simpmusic.utils.Resource
-import com.maxrave.simpmusic.viewModel.GenreViewModel
+import com.envoyz.riff.adapter.moodandgenre.genre.GenreItemAdapter
+import com.envoyz.riff.data.model.explore.mood.genre.ItemsPlaylist
+import com.envoyz.riff.databinding.MoodMomentDialogBinding
+import com.envoyz.riff.utils.Resource
+import com.envoyz.riff.viewModel.GenreViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import dev.chrisbanes.insetter.applyInsetter
 

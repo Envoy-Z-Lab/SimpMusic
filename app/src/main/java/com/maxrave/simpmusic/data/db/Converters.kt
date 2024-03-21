@@ -1,11 +1,11 @@
-package com.maxrave.simpmusic.data.db
+package com.envoyz.riff.data.db
 
 import androidx.room.ProvidedTypeConverter
 import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.data.model.metadata.Line
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.data.model.metadata.Line
 import java.lang.reflect.Type
 import java.time.Instant
 import java.time.LocalDateTime

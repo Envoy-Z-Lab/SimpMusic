@@ -1,14 +1,14 @@
-package com.maxrave.simpmusic.viewModel
+package com.envoyz.riff.viewModel
 
 import android.app.Application
 import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.maxrave.simpmusic.common.SELECTED_LANGUAGE
-import com.maxrave.simpmusic.data.dataStore.DataStoreManager
-import com.maxrave.simpmusic.data.model.explore.mood.moodmoments.MoodsMomentObject
-import com.maxrave.simpmusic.data.repository.MainRepository
-import com.maxrave.simpmusic.utils.Resource
+import com.envoyz.riff.common.SELECTED_LANGUAGE
+import com.envoyz.riff.data.dataStore.DataStoreManager
+import com.envoyz.riff.data.model.explore.mood.moodmoments.MoodsMomentObject
+import com.envoyz.riff.data.repository.MainRepository
+import com.envoyz.riff.utils.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

@@ -1,8 +1,8 @@
-package com.maxrave.simpmusic.data.model.home.chart
+package com.envoyz.riff.data.model.home.chart
 
 
 import com.google.gson.annotations.SerializedName
-import com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail
+import com.envoyz.riff.data.model.searchResult.songs.Thumbnail
 
 data class ItemArtist(
     @SerializedName("browseId")

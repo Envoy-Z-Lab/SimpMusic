@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.screen.home
+package com.envoyz.riff.ui.screen.home
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.layout.Box
@@ -19,11 +19,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.ui.component.EndOfPage
-import com.maxrave.simpmusic.ui.component.MoodAndGenresContentItem
-import com.maxrave.simpmusic.ui.component.NormalAppBar
-import com.maxrave.simpmusic.viewModel.MoodViewModel
+import com.envoyz.riff.R
+import com.envoyz.riff.ui.component.EndOfPage
+import com.envoyz.riff.ui.component.MoodAndGenresContentItem
+import com.envoyz.riff.ui.component.NormalAppBar
+import com.envoyz.riff.viewModel.MoodViewModel
 
 
 @Composable

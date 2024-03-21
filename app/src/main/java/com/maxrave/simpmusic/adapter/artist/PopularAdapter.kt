@@ -1,16 +1,16 @@
-package com.maxrave.simpmusic.adapter.artist
+package com.envoyz.riff.adapter.artist
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.simpmusic.data.db.entities.SongEntity
-import com.maxrave.simpmusic.data.model.browse.artist.ResultSong
-import com.maxrave.simpmusic.databinding.ItemPopularSongBinding
-import com.maxrave.simpmusic.extension.connectArtists
-import com.maxrave.simpmusic.extension.toListName
-import com.maxrave.simpmusic.extension.toVideoIdList
+import com.envoyz.riff.data.db.entities.SongEntity
+import com.envoyz.riff.data.model.browse.artist.ResultSong
+import com.envoyz.riff.databinding.ItemPopularSongBinding
+import com.envoyz.riff.extension.connectArtists
+import com.envoyz.riff.extension.toListName
+import com.envoyz.riff.extension.toVideoIdList
 
 class PopularAdapter(private var popularList: ArrayList<ResultSong>): RecyclerView.Adapter<PopularAdapter.ViewHolder>() {
     private lateinit var mListener: OnItemClickListener
@@ -109,7 +109,7 @@ class PopularAdapter(private var popularList: ArrayList<ResultSong>): RecyclerVi
             tvSongArtist.isSelected = true
             ivThumbnail.load(song.thumbnails.lastOrNull()?.url) {
                 crossfade(true)
-                placeholder(com.maxrave.simpmusic.R.drawable.holder)
+                placeholder(com.envoyz.riff.R.drawable.holder)
             }
             if (downloadedList.toVideoIdList().contains(song.videoId)) {
                 ivDownloaded.visibility = View.VISIBLE

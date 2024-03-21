@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.data.model.explore.mood.genre
+package com.envoyz.riff.data.model.explore.mood.genre
 
 
 import com.google.gson.annotations.SerializedName

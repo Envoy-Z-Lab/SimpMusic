@@ -1,12 +1,12 @@
-package com.maxrave.simpmusic.adapter.playlist
+package com.envoyz.riff.adapter.playlist
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.maxrave.simpmusic.data.db.entities.LocalPlaylistEntity
-import com.maxrave.simpmusic.databinding.ItemLocalPlaylistBinding
-import com.maxrave.simpmusic.extension.setEnabledAll
+import com.envoyz.riff.data.db.entities.LocalPlaylistEntity
+import com.envoyz.riff.databinding.ItemLocalPlaylistBinding
+import com.envoyz.riff.extension.setEnabledAll
 
 class AddToAPlaylistAdapter(private val list: ArrayList<LocalPlaylistEntity>): RecyclerView.Adapter<AddToAPlaylistAdapter.ViewHolder>() {
 

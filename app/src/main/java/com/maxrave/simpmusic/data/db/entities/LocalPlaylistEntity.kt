@@ -1,9 +1,9 @@
-package com.maxrave.simpmusic.data.db.entities
+package com.envoyz.riff.data.db.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.maxrave.simpmusic.common.DownloadState
+import com.envoyz.riff.common.DownloadState
 import java.time.LocalDateTime
 
 

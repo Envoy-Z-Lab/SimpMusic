@@ -1,27 +1,27 @@
-package com.maxrave.simpmusic.data.parser
+package com.envoyz.riff.data.parser
 
 import android.content.Context
 import android.util.Log
-import com.maxrave.kotlinytmusicscraper.models.AlbumItem
-import com.maxrave.kotlinytmusicscraper.models.ArtistItem
-import com.maxrave.kotlinytmusicscraper.models.PlaylistItem
-import com.maxrave.kotlinytmusicscraper.models.SongItem
-import com.maxrave.kotlinytmusicscraper.models.VideoItem
-import com.maxrave.kotlinytmusicscraper.pages.ArtistPage
-import com.maxrave.simpmusic.data.model.browse.artist.Albums
-import com.maxrave.simpmusic.data.model.browse.artist.ArtistBrowse
-import com.maxrave.simpmusic.data.model.browse.artist.Related
-import com.maxrave.simpmusic.data.model.browse.artist.ResultAlbum
-import com.maxrave.simpmusic.data.model.browse.artist.ResultPlaylist
-import com.maxrave.simpmusic.data.model.browse.artist.ResultRelated
-import com.maxrave.simpmusic.data.model.browse.artist.ResultSingle
-import com.maxrave.simpmusic.data.model.browse.artist.ResultSong
-import com.maxrave.simpmusic.data.model.browse.artist.ResultVideo
-import com.maxrave.simpmusic.data.model.browse.artist.Singles
-import com.maxrave.simpmusic.data.model.browse.artist.Songs
-import com.maxrave.simpmusic.data.model.searchResult.songs.Album
-import com.maxrave.simpmusic.data.model.searchResult.songs.Artist
-import com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail
+import com.envoyz.kotlinytmusicscraper.models.AlbumItem
+import com.envoyz.kotlinytmusicscraper.models.ArtistItem
+import com.envoyz.kotlinytmusicscraper.models.PlaylistItem
+import com.envoyz.kotlinytmusicscraper.models.SongItem
+import com.envoyz.kotlinytmusicscraper.models.VideoItem
+import com.envoyz.kotlinytmusicscraper.pages.ArtistPage
+import com.envoyz.riff.data.model.browse.artist.Albums
+import com.envoyz.riff.data.model.browse.artist.ArtistBrowse
+import com.envoyz.riff.data.model.browse.artist.Related
+import com.envoyz.riff.data.model.browse.artist.ResultAlbum
+import com.envoyz.riff.data.model.browse.artist.ResultPlaylist
+import com.envoyz.riff.data.model.browse.artist.ResultRelated
+import com.envoyz.riff.data.model.browse.artist.ResultSingle
+import com.envoyz.riff.data.model.browse.artist.ResultSong
+import com.envoyz.riff.data.model.browse.artist.ResultVideo
+import com.envoyz.riff.data.model.browse.artist.Singles
+import com.envoyz.riff.data.model.browse.artist.Songs
+import com.envoyz.riff.data.model.searchResult.songs.Album
+import com.envoyz.riff.data.model.searchResult.songs.Artist
+import com.envoyz.riff.data.model.searchResult.songs.Thumbnail
 
 fun parseArtistData(data: ArtistPage, context: Context): ArtistBrowse {
     for (i in data.sections) {

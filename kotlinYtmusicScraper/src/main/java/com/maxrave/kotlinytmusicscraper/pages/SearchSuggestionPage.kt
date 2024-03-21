@@ -1,15 +1,15 @@
-package com.maxrave.kotlinytmusicscraper.pages
+package com.envoyz.kotlinytmusicscraper.pages
 
-import com.maxrave.kotlinytmusicscraper.models.Album
-import com.maxrave.kotlinytmusicscraper.models.AlbumItem
-import com.maxrave.kotlinytmusicscraper.models.Artist
-import com.maxrave.kotlinytmusicscraper.models.ArtistItem
-import com.maxrave.kotlinytmusicscraper.models.MusicResponsiveListItemRenderer
-import com.maxrave.kotlinytmusicscraper.models.SongItem
-import com.maxrave.kotlinytmusicscraper.models.VideoItem
-import com.maxrave.kotlinytmusicscraper.models.YTItem
-import com.maxrave.kotlinytmusicscraper.models.oddElements
-import com.maxrave.kotlinytmusicscraper.models.splitBySeparator
+import com.envoyz.kotlinytmusicscraper.models.Album
+import com.envoyz.kotlinytmusicscraper.models.AlbumItem
+import com.envoyz.kotlinytmusicscraper.models.Artist
+import com.envoyz.kotlinytmusicscraper.models.ArtistItem
+import com.envoyz.kotlinytmusicscraper.models.MusicResponsiveListItemRenderer
+import com.envoyz.kotlinytmusicscraper.models.SongItem
+import com.envoyz.kotlinytmusicscraper.models.VideoItem
+import com.envoyz.kotlinytmusicscraper.models.YTItem
+import com.envoyz.kotlinytmusicscraper.models.oddElements
+import com.envoyz.kotlinytmusicscraper.models.splitBySeparator
 
 object SearchSuggestionPage {
     fun fromMusicResponsiveListItemRenderer(renderer: MusicResponsiveListItemRenderer): YTItem? {

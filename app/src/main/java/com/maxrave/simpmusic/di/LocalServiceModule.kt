@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.di
+package com.envoyz.riff.di
 
 import android.content.Context
 import android.util.Log
@@ -11,14 +11,14 @@ import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
 import com.google.common.reflect.TypeToken
 import com.google.gson.Gson
-import com.maxrave.simpmusic.common.DB_NAME
-import com.maxrave.simpmusic.data.dataStore.DataStoreManager
-import com.maxrave.simpmusic.data.db.Converters
-import com.maxrave.simpmusic.data.db.DatabaseDao
-import com.maxrave.simpmusic.data.db.MusicDatabase
-import com.maxrave.simpmusic.data.db.entities.PairSongLocalPlaylist
-import com.maxrave.simpmusic.extension.dataStore
-import com.maxrave.simpmusic.extension.toSQLiteQuery
+import com.envoyz.riff.common.DB_NAME
+import com.envoyz.riff.data.dataStore.DataStoreManager
+import com.envoyz.riff.data.db.Converters
+import com.envoyz.riff.data.db.DatabaseDao
+import com.envoyz.riff.data.db.MusicDatabase
+import com.envoyz.riff.data.db.entities.PairSongLocalPlaylist
+import com.envoyz.riff.extension.dataStore
+import com.envoyz.riff.extension.toSQLiteQuery
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

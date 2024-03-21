@@ -1,11 +1,11 @@
-package com.maxrave.simpmusic.viewModel
+package com.envoyz.riff.viewModel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.maxrave.kotlinytmusicscraper.YouTube
-import com.maxrave.kotlinytmusicscraper.models.musixmatch.MusixmatchCredential
-import com.maxrave.simpmusic.data.dataStore.DataStoreManager
-import com.maxrave.simpmusic.data.repository.MainRepository
+import com.envoyz.kotlinytmusicscraper.YouTube
+import com.envoyz.kotlinytmusicscraper.models.musixmatch.MusixmatchCredential
+import com.envoyz.riff.data.dataStore.DataStoreManager
+import com.envoyz.riff.data.repository.MainRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

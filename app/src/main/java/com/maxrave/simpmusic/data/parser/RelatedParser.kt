@@ -1,10 +1,10 @@
-package com.maxrave.simpmusic.data.parser
+package com.envoyz.riff.data.parser
 
-import com.maxrave.kotlinytmusicscraper.models.PlaylistPanelRenderer
-import com.maxrave.kotlinytmusicscraper.utils.parseTime
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.data.model.searchResult.songs.Album
-import com.maxrave.simpmusic.data.model.searchResult.songs.Artist
+import com.envoyz.kotlinytmusicscraper.models.PlaylistPanelRenderer
+import com.envoyz.kotlinytmusicscraper.utils.parseTime
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.data.model.searchResult.songs.Album
+import com.envoyz.riff.data.model.searchResult.songs.Artist
 
 fun parseRelated(data:  List<PlaylistPanelRenderer.Content>?): ArrayList<Track>? {
     if (!data.isNullOrEmpty()){

@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.adapter.home
+package com.envoyz.riff.adapter.home
 
 import android.content.Context
 import android.os.Bundle
@@ -10,15 +10,15 @@ import androidx.navigation.NavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.common.Config
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.data.model.home.Content
-import com.maxrave.simpmusic.data.model.home.HomeItem
-import com.maxrave.simpmusic.data.queue.Queue
-import com.maxrave.simpmusic.databinding.ItemHomeBinding
-import com.maxrave.simpmusic.extension.navigateSafe
-import com.maxrave.simpmusic.extension.toTrack
+import com.envoyz.riff.R
+import com.envoyz.riff.common.Config
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.data.model.home.Content
+import com.envoyz.riff.data.model.home.HomeItem
+import com.envoyz.riff.data.queue.Queue
+import com.envoyz.riff.databinding.ItemHomeBinding
+import com.envoyz.riff.extension.navigateSafe
+import com.envoyz.riff.extension.toTrack
 
 class HomeItemAdapter(
     private var homeItemList: ArrayList<HomeItem>,

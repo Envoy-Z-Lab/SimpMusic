@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.utils
+package com.envoyz.riff.utils
 
 open class Event<out T> (private val data: T){
 

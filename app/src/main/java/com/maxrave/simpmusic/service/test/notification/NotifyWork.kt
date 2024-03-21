@@ -1,18 +1,18 @@
-package com.maxrave.simpmusic.service.test.notification
+package com.envoyz.riff.service.test.notification
 
 import android.content.Context
 import android.util.Log
 import androidx.hilt.work.HiltWorker
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
-import com.maxrave.simpmusic.data.db.entities.ArtistEntity
-import com.maxrave.simpmusic.data.db.entities.FollowedArtistSingleAndAlbum
-import com.maxrave.simpmusic.data.db.entities.NotificationEntity
-import com.maxrave.simpmusic.data.model.browse.artist.ResultAlbum
-import com.maxrave.simpmusic.data.model.browse.artist.ResultSingle
-import com.maxrave.simpmusic.data.repository.MainRepository
-import com.maxrave.simpmusic.extension.symmetricDifference
-import com.maxrave.simpmusic.utils.Resource
+import com.envoyz.riff.data.db.entities.ArtistEntity
+import com.envoyz.riff.data.db.entities.FollowedArtistSingleAndAlbum
+import com.envoyz.riff.data.db.entities.NotificationEntity
+import com.envoyz.riff.data.model.browse.artist.ResultAlbum
+import com.envoyz.riff.data.model.browse.artist.ResultSingle
+import com.envoyz.riff.data.repository.MainRepository
+import com.envoyz.riff.extension.symmetricDifference
+import com.envoyz.riff.utils.Resource
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import kotlinx.coroutines.Dispatchers

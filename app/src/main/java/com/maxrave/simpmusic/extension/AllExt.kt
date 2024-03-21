@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.extension
+package com.envoyz.riff.extension
 
 import android.app.ActivityManager
 import android.app.Service
@@ -21,35 +21,35 @@ import androidx.media3.common.MediaMetadata
 import androidx.media3.common.util.UnstableApi
 import androidx.navigation.NavController
 import androidx.sqlite.db.SimpleSQLiteQuery
-import com.maxrave.kotlinytmusicscraper.models.SongItem
-import com.maxrave.kotlinytmusicscraper.models.VideoItem
-import com.maxrave.kotlinytmusicscraper.models.musixmatch.MusixmatchTranslationLyricsResponse
-import com.maxrave.kotlinytmusicscraper.models.response.PipedResponse
-import com.maxrave.kotlinytmusicscraper.models.response.spotify.SpotifyLyricsResponse
-import com.maxrave.kotlinytmusicscraper.models.youtube.Transcript
-import com.maxrave.kotlinytmusicscraper.models.youtube.YouTubeInitialPage
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.common.SETTINGS_FILENAME
-import com.maxrave.simpmusic.data.db.entities.AlbumEntity
-import com.maxrave.simpmusic.data.db.entities.LyricsEntity
-import com.maxrave.simpmusic.data.db.entities.PlaylistEntity
-import com.maxrave.simpmusic.data.db.entities.SearchHistory
-import com.maxrave.simpmusic.data.db.entities.SongEntity
-import com.maxrave.simpmusic.data.model.browse.album.AlbumBrowse
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.data.model.browse.artist.ResultSong
-import com.maxrave.simpmusic.data.model.browse.artist.ResultVideo
-import com.maxrave.simpmusic.data.model.browse.playlist.PlaylistBrowse
-import com.maxrave.simpmusic.data.model.home.Content
-import com.maxrave.simpmusic.data.model.metadata.Line
-import com.maxrave.simpmusic.data.model.metadata.Lyrics
-import com.maxrave.simpmusic.data.model.podcast.PodcastBrowse
-import com.maxrave.simpmusic.data.model.searchResult.songs.Album
-import com.maxrave.simpmusic.data.model.searchResult.songs.Artist
-import com.maxrave.simpmusic.data.model.searchResult.songs.SongsResult
-import com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail
-import com.maxrave.simpmusic.data.model.searchResult.videos.VideosResult
-import com.maxrave.simpmusic.data.parser.toListThumbnail
+import com.envoyz.kotlinytmusicscraper.models.SongItem
+import com.envoyz.kotlinytmusicscraper.models.VideoItem
+import com.envoyz.kotlinytmusicscraper.models.musixmatch.MusixmatchTranslationLyricsResponse
+import com.envoyz.kotlinytmusicscraper.models.response.PipedResponse
+import com.envoyz.kotlinytmusicscraper.models.response.spotify.SpotifyLyricsResponse
+import com.envoyz.kotlinytmusicscraper.models.youtube.Transcript
+import com.envoyz.kotlinytmusicscraper.models.youtube.YouTubeInitialPage
+import com.envoyz.riff.R
+import com.envoyz.riff.common.SETTINGS_FILENAME
+import com.envoyz.riff.data.db.entities.AlbumEntity
+import com.envoyz.riff.data.db.entities.LyricsEntity
+import com.envoyz.riff.data.db.entities.PlaylistEntity
+import com.envoyz.riff.data.db.entities.SearchHistory
+import com.envoyz.riff.data.db.entities.SongEntity
+import com.envoyz.riff.data.model.browse.album.AlbumBrowse
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.data.model.browse.artist.ResultSong
+import com.envoyz.riff.data.model.browse.artist.ResultVideo
+import com.envoyz.riff.data.model.browse.playlist.PlaylistBrowse
+import com.envoyz.riff.data.model.home.Content
+import com.envoyz.riff.data.model.metadata.Line
+import com.envoyz.riff.data.model.metadata.Lyrics
+import com.envoyz.riff.data.model.podcast.PodcastBrowse
+import com.envoyz.riff.data.model.searchResult.songs.Album
+import com.envoyz.riff.data.model.searchResult.songs.Artist
+import com.envoyz.riff.data.model.searchResult.songs.SongsResult
+import com.envoyz.riff.data.model.searchResult.songs.Thumbnail
+import com.envoyz.riff.data.model.searchResult.videos.VideosResult
+import com.envoyz.riff.data.parser.toListThumbnail
 import kotlinx.coroutines.flow.Flow
 import java.io.File
 import java.io.InputStream
@@ -576,7 +576,7 @@ fun <T> Iterable<T>.indexMap(): Map<T, Int> {
     return map
 }
 
-fun com.maxrave.kotlinytmusicscraper.models.lyrics.Lyrics.toLyrics(): Lyrics {
+fun com.envoyz.kotlinytmusicscraper.models.lyrics.Lyrics.toLyrics(): Lyrics {
     val lines: ArrayList<Line> = arrayListOf()
     if (this.lyrics != null) {
         this.lyrics?.lines?.forEach {

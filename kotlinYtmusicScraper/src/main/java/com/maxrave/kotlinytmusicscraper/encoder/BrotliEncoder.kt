@@ -1,4 +1,4 @@
-package com.maxrave.kotlinytmusicscraper.encoder
+package com.envoyz.kotlinytmusicscraper.encoder
 
 import io.ktor.client.plugins.compression.ContentEncoder
 import io.ktor.client.plugins.compression.ContentEncoding

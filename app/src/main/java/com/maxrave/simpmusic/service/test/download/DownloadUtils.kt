@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.service.test.download
+package com.envoyz.riff.service.test.download
 
 import android.content.Context
 import android.util.Log
@@ -13,10 +13,10 @@ import androidx.media3.datasource.cache.SimpleCache
 import androidx.media3.exoplayer.offline.Download
 import androidx.media3.exoplayer.offline.DownloadManager
 import androidx.media3.exoplayer.offline.DownloadNotificationHelper
-import com.maxrave.simpmusic.data.repository.MainRepository
-import com.maxrave.simpmusic.di.DownloadCache
-import com.maxrave.simpmusic.di.PlayerCache
-import com.maxrave.simpmusic.service.test.download.MusicDownloadService.Companion.CHANNEL_ID
+import com.envoyz.riff.data.repository.MainRepository
+import com.envoyz.riff.di.DownloadCache
+import com.envoyz.riff.di.PlayerCache
+import com.envoyz.riff.service.test.download.MusicDownloadService.Companion.CHANNEL_ID
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow

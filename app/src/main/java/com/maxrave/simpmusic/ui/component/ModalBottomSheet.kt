@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.envoyz.riff.ui.component
 
 import android.content.Intent
 import android.content.res.Configuration
@@ -58,18 +58,18 @@ import androidx.compose.ui.unit.dp
 import androidx.media3.common.util.UnstableApi
 import androidx.navigation.NavController
 import androidx.wear.compose.material3.ripple
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.common.DownloadState
-import com.maxrave.simpmusic.data.db.entities.LocalPlaylistEntity
-import com.maxrave.simpmusic.data.db.entities.SongEntity
-import com.maxrave.simpmusic.data.model.searchResult.songs.Artist
-import com.maxrave.simpmusic.extension.connectArtists
-import com.maxrave.simpmusic.extension.greyScale
-import com.maxrave.simpmusic.extension.navigateSafe
-import com.maxrave.simpmusic.extension.toTrack
-import com.maxrave.simpmusic.ui.theme.AppTheme
-import com.maxrave.simpmusic.ui.theme.typo
-import com.maxrave.simpmusic.viewModel.SharedViewModel
+import com.envoyz.riff.R
+import com.envoyz.riff.common.DownloadState
+import com.envoyz.riff.data.db.entities.LocalPlaylistEntity
+import com.envoyz.riff.data.db.entities.SongEntity
+import com.envoyz.riff.data.model.searchResult.songs.Artist
+import com.envoyz.riff.extension.connectArtists
+import com.envoyz.riff.extension.greyScale
+import com.envoyz.riff.extension.navigateSafe
+import com.envoyz.riff.extension.toTrack
+import com.envoyz.riff.ui.theme.AppTheme
+import com.envoyz.riff.ui.theme.typo
+import com.envoyz.riff.viewModel.SharedViewModel
 import com.skydoves.landscapist.ImageOptions
 import com.skydoves.landscapist.animation.crossfade.CrossfadePlugin
 import com.skydoves.landscapist.coil.CoilImage

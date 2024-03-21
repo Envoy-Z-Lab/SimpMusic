@@ -1,10 +1,10 @@
-package com.maxrave.simpmusic.data.parser.search
+package com.envoyz.riff.data.parser.search
 
-import com.maxrave.kotlinytmusicscraper.models.SongItem
-import com.maxrave.kotlinytmusicscraper.pages.SearchResult
-import com.maxrave.simpmusic.data.model.searchResult.songs.Artist
-import com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail
-import com.maxrave.simpmusic.data.model.searchResult.videos.VideosResult
+import com.envoyz.kotlinytmusicscraper.models.SongItem
+import com.envoyz.kotlinytmusicscraper.pages.SearchResult
+import com.envoyz.riff.data.model.searchResult.songs.Artist
+import com.envoyz.riff.data.model.searchResult.songs.Thumbnail
+import com.envoyz.riff.data.model.searchResult.videos.VideosResult
 
 fun parseSearchVideo(result: SearchResult): ArrayList<VideosResult> {
     val songsResult: ArrayList<VideosResult> = arrayListOf()

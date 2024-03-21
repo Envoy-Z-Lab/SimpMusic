@@ -1,30 +1,30 @@
-package com.maxrave.kotlinytmusicscraper
+package com.envoyz.kotlinytmusicscraper
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.maxrave.kotlinytmusicscraper.encoder.brotli
-import com.maxrave.kotlinytmusicscraper.models.Context
-import com.maxrave.kotlinytmusicscraper.models.WatchEndpoint
-import com.maxrave.kotlinytmusicscraper.models.YouTubeClient
-import com.maxrave.kotlinytmusicscraper.models.YouTubeLocale
-import com.maxrave.kotlinytmusicscraper.models.body.AccountMenuBody
-import com.maxrave.kotlinytmusicscraper.models.body.BrowseBody
-import com.maxrave.kotlinytmusicscraper.models.body.CreatePlaylistBody
-import com.maxrave.kotlinytmusicscraper.models.body.EditPlaylistBody
-import com.maxrave.kotlinytmusicscraper.models.body.FormData
-import com.maxrave.kotlinytmusicscraper.models.body.GetQueueBody
-import com.maxrave.kotlinytmusicscraper.models.body.GetSearchSuggestionsBody
-import com.maxrave.kotlinytmusicscraper.models.body.LikeBody
-import com.maxrave.kotlinytmusicscraper.models.body.MusixmatchCredentialsBody
-import com.maxrave.kotlinytmusicscraper.models.body.NextBody
-import com.maxrave.kotlinytmusicscraper.models.body.NotificationBody
-import com.maxrave.kotlinytmusicscraper.models.body.PlayerBody
-import com.maxrave.kotlinytmusicscraper.models.body.SearchBody
-import com.maxrave.kotlinytmusicscraper.models.body.spotify.CanvasBody
-import com.maxrave.kotlinytmusicscraper.models.musixmatch.SearchMusixmatchResponse
-import com.maxrave.kotlinytmusicscraper.utils.CustomRedirectConfig
-import com.maxrave.kotlinytmusicscraper.utils.parseCookieString
-import com.maxrave.kotlinytmusicscraper.utils.sha1
+import com.envoyz.kotlinytmusicscraper.encoder.brotli
+import com.envoyz.kotlinytmusicscraper.models.Context
+import com.envoyz.kotlinytmusicscraper.models.WatchEndpoint
+import com.envoyz.kotlinytmusicscraper.models.YouTubeClient
+import com.envoyz.kotlinytmusicscraper.models.YouTubeLocale
+import com.envoyz.kotlinytmusicscraper.models.body.AccountMenuBody
+import com.envoyz.kotlinytmusicscraper.models.body.BrowseBody
+import com.envoyz.kotlinytmusicscraper.models.body.CreatePlaylistBody
+import com.envoyz.kotlinytmusicscraper.models.body.EditPlaylistBody
+import com.envoyz.kotlinytmusicscraper.models.body.FormData
+import com.envoyz.kotlinytmusicscraper.models.body.GetQueueBody
+import com.envoyz.kotlinytmusicscraper.models.body.GetSearchSuggestionsBody
+import com.envoyz.kotlinytmusicscraper.models.body.LikeBody
+import com.envoyz.kotlinytmusicscraper.models.body.MusixmatchCredentialsBody
+import com.envoyz.kotlinytmusicscraper.models.body.NextBody
+import com.envoyz.kotlinytmusicscraper.models.body.NotificationBody
+import com.envoyz.kotlinytmusicscraper.models.body.PlayerBody
+import com.envoyz.kotlinytmusicscraper.models.body.SearchBody
+import com.envoyz.kotlinytmusicscraper.models.body.spotify.CanvasBody
+import com.envoyz.kotlinytmusicscraper.models.musixmatch.SearchMusixmatchResponse
+import com.envoyz.kotlinytmusicscraper.utils.CustomRedirectConfig
+import com.envoyz.kotlinytmusicscraper.utils.parseCookieString
+import com.envoyz.kotlinytmusicscraper.utils.sha1
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.okhttp.OkHttp
 import io.ktor.client.plugins.HttpSend
@@ -576,7 +576,7 @@ class Ytmusic {
 
     /***
      * SponsorBlock testing
-     * @author maxrave-dev
+     * @author envoyz-dev
      */
 
     suspend fun getSkipSegments(videoId: String) =
@@ -595,7 +595,7 @@ class Ytmusic {
             parameter("service", "YouTube")
         }
 
-    suspend fun checkForUpdate() = httpClient.get("https://api.github.com/repos/maxrave-dev/SimpMusic/releases/latest") {
+    suspend fun checkForUpdate() = httpClient.get("https://api.github.com/repos/envoyz-dev/SimpMusic/releases/latest") {
         contentType(ContentType.Application.Json)
     }
 

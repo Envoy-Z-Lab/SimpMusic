@@ -1,4 +1,4 @@
-package com.maxrave.kotlinytmusicscraper.utils
+package com.envoyz.kotlinytmusicscraper.utils
 
 /*
 * Copyright 2014-2021 JetBrains s.r.o and contributors. Use of this source code is governed by the Apache 2.0 license.
@@ -25,7 +25,7 @@ private val LOGGER = KtorSimpleLogger("io.ktor.client.plugins.HttpRedirect")
 /**
  * An [HttpClient] plugin that handles HTTP redirects
  * Use only for Musixmatch API
- * @author maxrave-dev
+ * @author envoyz-dev
  */
 class CustomRedirectConfig private constructor(
     private val checkHttpMethod: Boolean,

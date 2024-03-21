@@ -1,10 +1,10 @@
-package com.maxrave.simpmusic.adapter.artist
+package com.envoyz.riff.adapter.artist
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.maxrave.simpmusic.data.model.searchResult.songs.Artist
-import com.maxrave.simpmusic.databinding.ItemArtistInNowPlayingBinding
+import com.envoyz.riff.data.model.searchResult.songs.Artist
+import com.envoyz.riff.databinding.ItemArtistInNowPlayingBinding
 
 class SeeArtistOfNowPlayingAdapter(private val listArtist: List<Artist>): RecyclerView.Adapter<SeeArtistOfNowPlayingAdapter.ViewHolder>() {
     private lateinit var mListener: OnItemClickListener

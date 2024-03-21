@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.utils
+package com.envoyz.riff.utils
 
 import android.content.Context
 import android.graphics.Typeface

@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.envoyz.riff.ui.component
 
 import androidx.annotation.DrawableRes
 import androidx.compose.material3.Icon

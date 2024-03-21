@@ -1,24 +1,24 @@
-package com.maxrave.simpmusic.data.parser
+package com.envoyz.riff.data.parser
 
 import android.content.Context
 import android.util.Log
-import com.maxrave.kotlinytmusicscraper.models.ArtistItem
-import com.maxrave.kotlinytmusicscraper.models.MusicResponsiveListItemRenderer
-import com.maxrave.kotlinytmusicscraper.models.MusicTwoRowItemRenderer
-import com.maxrave.kotlinytmusicscraper.models.PlaylistItem
-import com.maxrave.kotlinytmusicscraper.models.Run
-import com.maxrave.kotlinytmusicscraper.models.SectionListRenderer
-import com.maxrave.kotlinytmusicscraper.models.SongItem
-import com.maxrave.kotlinytmusicscraper.models.Thumbnail
-import com.maxrave.kotlinytmusicscraper.models.VideoItem
-import com.maxrave.kotlinytmusicscraper.pages.ArtistPage
-import com.maxrave.kotlinytmusicscraper.pages.ExplorePage
-import com.maxrave.kotlinytmusicscraper.pages.RelatedPage
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.data.model.home.Content
-import com.maxrave.simpmusic.data.model.home.HomeItem
-import com.maxrave.simpmusic.data.model.searchResult.songs.Album
-import com.maxrave.simpmusic.data.model.searchResult.songs.Artist
+import com.envoyz.kotlinytmusicscraper.models.ArtistItem
+import com.envoyz.kotlinytmusicscraper.models.MusicResponsiveListItemRenderer
+import com.envoyz.kotlinytmusicscraper.models.MusicTwoRowItemRenderer
+import com.envoyz.kotlinytmusicscraper.models.PlaylistItem
+import com.envoyz.kotlinytmusicscraper.models.Run
+import com.envoyz.kotlinytmusicscraper.models.SectionListRenderer
+import com.envoyz.kotlinytmusicscraper.models.SongItem
+import com.envoyz.kotlinytmusicscraper.models.Thumbnail
+import com.envoyz.kotlinytmusicscraper.models.VideoItem
+import com.envoyz.kotlinytmusicscraper.pages.ArtistPage
+import com.envoyz.kotlinytmusicscraper.pages.ExplorePage
+import com.envoyz.kotlinytmusicscraper.pages.RelatedPage
+import com.envoyz.riff.R
+import com.envoyz.riff.data.model.home.Content
+import com.envoyz.riff.data.model.home.HomeItem
+import com.envoyz.riff.data.model.searchResult.songs.Album
+import com.envoyz.riff.data.model.searchResult.songs.Artist
 
 fun parseMixedContent(data: List<SectionListRenderer.Content>?, context: Context): List<HomeItem> {
     val list = mutableListOf<HomeItem>()
@@ -649,16 +649,16 @@ fun parseWatchPlaylist(data: MusicTwoRowItemRenderer): Content {
     )
 }
 
-fun Thumbnail.toThumbnail(): com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail {
-    return com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail(
+fun Thumbnail.toThumbnail(): com.envoyz.riff.data.model.searchResult.songs.Thumbnail {
+    return com.envoyz.riff.data.model.searchResult.songs.Thumbnail(
         height = this.height ?: 0,
         url = this.url,
         width = this.width ?: 0
     )
 }
 
-fun List<Thumbnail>.toListThumbnail(): List<com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail> {
-    val list = mutableListOf<com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail>()
+fun List<Thumbnail>.toListThumbnail(): List<com.envoyz.riff.data.model.searchResult.songs.Thumbnail> {
+    val list = mutableListOf<com.envoyz.riff.data.model.searchResult.songs.Thumbnail>()
     this.forEach {
         list.add(it.toThumbnail())
     }
@@ -684,7 +684,7 @@ fun parseNewRelease(explore: ExplorePage, context: Context): ArrayList<HomeItem>
                     playlistId = it.id,
                     browseId = it.id,
                     thumbnails = listOf(
-                        com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail(
+                        com.envoyz.riff.data.model.searchResult.songs.Thumbnail(
                             522,
                             it.thumbnail,
                             522
@@ -727,7 +727,7 @@ fun parseNewRelease(explore: ExplorePage, context: Context): ArrayList<HomeItem>
                     playlistId = null,
                     browseId = null,
                     thumbnails = listOf(
-                        com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail(
+                        com.envoyz.riff.data.model.searchResult.songs.Thumbnail(
                             522,
                             videoItem.thumbnail,
                             1080

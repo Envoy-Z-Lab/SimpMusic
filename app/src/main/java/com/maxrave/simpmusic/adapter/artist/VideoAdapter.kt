@@ -1,14 +1,14 @@
-package com.maxrave.simpmusic.adapter.artist
+package com.envoyz.riff.adapter.artist
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.data.model.browse.artist.ResultVideo
-import com.maxrave.simpmusic.databinding.ItemVideoBinding
-import com.maxrave.simpmusic.extension.connectArtists
-import com.maxrave.simpmusic.extension.toListName
+import com.envoyz.riff.R
+import com.envoyz.riff.data.model.browse.artist.ResultVideo
+import com.envoyz.riff.databinding.ItemVideoBinding
+import com.envoyz.riff.extension.connectArtists
+import com.envoyz.riff.extension.toListName
 
 class VideoAdapter(private val videos: ArrayList<ResultVideo>): RecyclerView.Adapter<VideoAdapter.ViewHolder>() {
     private lateinit var mListener: OnItemClickListener

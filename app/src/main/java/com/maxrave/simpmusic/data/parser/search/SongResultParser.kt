@@ -1,10 +1,10 @@
-package com.maxrave.simpmusic.data.parser.search
+package com.envoyz.riff.data.parser.search
 
-import com.maxrave.kotlinytmusicscraper.models.SongItem
-import com.maxrave.kotlinytmusicscraper.pages.SearchResult
-import com.maxrave.simpmusic.data.model.searchResult.songs.Album
-import com.maxrave.simpmusic.data.model.searchResult.songs.SongsResult
-import com.maxrave.simpmusic.data.model.searchResult.songs.Thumbnail
+import com.envoyz.kotlinytmusicscraper.models.SongItem
+import com.envoyz.kotlinytmusicscraper.pages.SearchResult
+import com.envoyz.riff.data.model.searchResult.songs.Album
+import com.envoyz.riff.data.model.searchResult.songs.SongsResult
+import com.envoyz.riff.data.model.searchResult.songs.Thumbnail
 
 fun parseSearchSong(result: SearchResult): ArrayList<SongsResult> {
     val songsResult: ArrayList<SongsResult> = arrayListOf()
@@ -17,7 +17,7 @@ fun parseSearchSong(result: SearchResult): ArrayList<SongsResult> {
                     name = song.album!!.name
                 ) else null,
                 artists = song.artists.map { artistItem ->
-                    com.maxrave.simpmusic.data.model.searchResult.songs.Artist(
+                    com.envoyz.riff.data.model.searchResult.songs.Artist(
                         id = artistItem.id,
                         name = artistItem.name
                     )

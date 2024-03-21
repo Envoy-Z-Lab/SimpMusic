@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.envoyz.riff.ui.component
 
 import android.content.Context
 import android.os.Bundle
@@ -54,24 +54,24 @@ import androidx.media3.common.util.UnstableApi
 import androidx.navigation.NavController
 import androidx.wear.compose.material3.ripple
 import coil.compose.AsyncImage
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.common.Config
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.data.model.explore.mood.genre.ItemsPlaylist
-import com.maxrave.simpmusic.data.model.explore.mood.moodmoments.Item
-import com.maxrave.simpmusic.data.model.home.Content
-import com.maxrave.simpmusic.data.model.home.HomeItem
-import com.maxrave.simpmusic.data.model.home.chart.ItemArtist
-import com.maxrave.simpmusic.data.model.home.chart.ItemVideo
-import com.maxrave.simpmusic.data.queue.Queue
-import com.maxrave.simpmusic.extension.connectArtists
-import com.maxrave.simpmusic.extension.generateRandomColor
-import com.maxrave.simpmusic.extension.navigateSafe
-import com.maxrave.simpmusic.extension.toListName
-import com.maxrave.simpmusic.extension.toTrack
-import com.maxrave.simpmusic.ui.theme.typo
-import com.maxrave.simpmusic.viewModel.HomeViewModel
-import com.maxrave.simpmusic.viewModel.SharedViewModel
+import com.envoyz.riff.R
+import com.envoyz.riff.common.Config
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.data.model.explore.mood.genre.ItemsPlaylist
+import com.envoyz.riff.data.model.explore.mood.moodmoments.Item
+import com.envoyz.riff.data.model.home.Content
+import com.envoyz.riff.data.model.home.HomeItem
+import com.envoyz.riff.data.model.home.chart.ItemArtist
+import com.envoyz.riff.data.model.home.chart.ItemVideo
+import com.envoyz.riff.data.queue.Queue
+import com.envoyz.riff.extension.connectArtists
+import com.envoyz.riff.extension.generateRandomColor
+import com.envoyz.riff.extension.navigateSafe
+import com.envoyz.riff.extension.toListName
+import com.envoyz.riff.extension.toTrack
+import com.envoyz.riff.ui.theme.typo
+import com.envoyz.riff.viewModel.HomeViewModel
+import com.envoyz.riff.viewModel.SharedViewModel
 import com.skydoves.landscapist.ImageOptions
 import com.skydoves.landscapist.animation.crossfade.CrossfadePlugin
 import com.skydoves.landscapist.coil.CoilImage
@@ -289,8 +289,8 @@ fun HomeItemContentPlaylist(
                 model =
                 when (data) {
                     is Content -> data.thumbnails.lastOrNull()?.url
-                    is com.maxrave.simpmusic.data.model.explore.mood.genre.Content -> data.thumbnail?.lastOrNull()?.url
-                    is com.maxrave.simpmusic.data.model.explore.mood.moodmoments.Content -> data.thumbnails?.lastOrNull()?.url
+                    is com.envoyz.riff.data.model.explore.mood.genre.Content -> data.thumbnail?.lastOrNull()?.url
+                    is com.envoyz.riff.data.model.explore.mood.moodmoments.Content -> data.thumbnails?.lastOrNull()?.url
                     else -> null
                 },
                 placeholder = painterResource(id = R.drawable.holder),
@@ -306,8 +306,8 @@ fun HomeItemContentPlaylist(
                 text =
                 when (data) {
                     is Content -> data.title
-                    is com.maxrave.simpmusic.data.model.explore.mood.genre.Content -> data.title.title
-                    is com.maxrave.simpmusic.data.model.explore.mood.moodmoments.Content -> data.title
+                    is com.envoyz.riff.data.model.explore.mood.genre.Content -> data.title.title
+                    is com.envoyz.riff.data.model.explore.mood.moodmoments.Content -> data.title
                     else -> ""
                 },
                 style = typo.titleSmall,
@@ -329,8 +329,8 @@ fun HomeItemContentPlaylist(
                             id = R.string.playlist
                         )
 
-                    is com.maxrave.simpmusic.data.model.explore.mood.genre.Content -> data.title.subtitle
-                    is com.maxrave.simpmusic.data.model.explore.mood.moodmoments.Content -> data.subtitle
+                    is com.envoyz.riff.data.model.explore.mood.genre.Content -> data.title.subtitle
+                    is com.envoyz.riff.data.model.explore.mood.moodmoments.Content -> data.subtitle
                     else -> ""
                 },
                 style = typo.bodySmall,
@@ -1012,7 +1012,7 @@ fun MoodAndGenresContentItem(data: Any?, navController: NavController) {
                     navController.navigateSafe(R.id.action_global_playlistFragment, Bundle().apply {
                         putString(
                             "id",
-                            if (item is com.maxrave.simpmusic.data.model.explore.mood.genre.Content) item.playlistBrowseId else (item as com.maxrave.simpmusic.data.model.explore.mood.moodmoments.Content).playlistBrowseId
+                            if (item is com.envoyz.riff.data.model.explore.mood.genre.Content) item.playlistBrowseId else (item as com.envoyz.riff.data.model.explore.mood.moodmoments.Content).playlistBrowseId
                         )
                     })
                 }, data = item)

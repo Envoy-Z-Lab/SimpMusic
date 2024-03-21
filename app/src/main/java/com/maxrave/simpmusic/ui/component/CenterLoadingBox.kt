@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.component
+package com.envoyz.riff.ui.component
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.width

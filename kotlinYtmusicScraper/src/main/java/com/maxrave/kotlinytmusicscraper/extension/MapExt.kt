@@ -1,4 +1,4 @@
-package com.maxrave.kotlinytmusicscraper.extension
+package com.envoyz.kotlinytmusicscraper.extension
 
 import kotlin.reflect.full.memberProperties
 

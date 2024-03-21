@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.maxrave.simpmusic"
+    namespace = "com.envoyz.riff"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.maxrave.simpmusic"
+        applicationId = "com.envoyz.riff"
         minSdk = 26
         targetSdk = 34
         versionCode = 16

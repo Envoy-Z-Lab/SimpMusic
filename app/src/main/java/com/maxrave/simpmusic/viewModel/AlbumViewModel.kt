@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.viewModel
+package com.envoyz.riff.viewModel
 
 import android.app.Application
 import android.graphics.drawable.GradientDrawable
@@ -8,16 +8,16 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.offline.Download
-import com.maxrave.simpmusic.common.DownloadState
-import com.maxrave.simpmusic.common.SELECTED_LANGUAGE
-import com.maxrave.simpmusic.data.dataStore.DataStoreManager
-import com.maxrave.simpmusic.data.db.entities.AlbumEntity
-import com.maxrave.simpmusic.data.db.entities.SongEntity
-import com.maxrave.simpmusic.data.model.browse.album.AlbumBrowse
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.data.repository.MainRepository
-import com.maxrave.simpmusic.service.test.download.DownloadUtils
-import com.maxrave.simpmusic.utils.Resource
+import com.envoyz.riff.common.DownloadState
+import com.envoyz.riff.common.SELECTED_LANGUAGE
+import com.envoyz.riff.data.dataStore.DataStoreManager
+import com.envoyz.riff.data.db.entities.AlbumEntity
+import com.envoyz.riff.data.db.entities.SongEntity
+import com.envoyz.riff.data.model.browse.album.AlbumBrowse
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.data.repository.MainRepository
+import com.envoyz.riff.service.test.download.DownloadUtils
+import com.envoyz.riff.utils.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

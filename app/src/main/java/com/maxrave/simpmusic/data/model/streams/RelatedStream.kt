@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.data.model.streams
+package com.envoyz.riff.data.model.streams
 
 
 import com.google.gson.annotations.SerializedName

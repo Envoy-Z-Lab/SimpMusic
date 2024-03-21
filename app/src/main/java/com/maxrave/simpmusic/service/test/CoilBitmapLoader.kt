@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.service.test
+package com.envoyz.riff.service.test
 
 import android.content.Context
 import android.graphics.Bitmap

@@ -1,14 +1,14 @@
-package com.maxrave.simpmusic.data.parser
+package com.envoyz.riff.data.parser
 
-import com.maxrave.kotlinytmusicscraper.models.response.BrowseResponse
-import com.maxrave.simpmusic.data.model.explore.mood.genre.GenreObject
-import com.maxrave.simpmusic.data.model.explore.mood.genre.ItemsPlaylist
-import com.maxrave.simpmusic.data.model.explore.mood.genre.ItemsSong
-import com.maxrave.simpmusic.data.model.explore.mood.genre.Title
-import com.maxrave.simpmusic.data.model.explore.mood.moodmoments.Content
-import com.maxrave.simpmusic.data.model.explore.mood.moodmoments.Item
-import com.maxrave.simpmusic.data.model.explore.mood.moodmoments.MoodsMomentObject
-import com.maxrave.simpmusic.data.model.searchResult.songs.Artist
+import com.envoyz.kotlinytmusicscraper.models.response.BrowseResponse
+import com.envoyz.riff.data.model.explore.mood.genre.GenreObject
+import com.envoyz.riff.data.model.explore.mood.genre.ItemsPlaylist
+import com.envoyz.riff.data.model.explore.mood.genre.ItemsSong
+import com.envoyz.riff.data.model.explore.mood.genre.Title
+import com.envoyz.riff.data.model.explore.mood.moodmoments.Content
+import com.envoyz.riff.data.model.explore.mood.moodmoments.Item
+import com.envoyz.riff.data.model.explore.mood.moodmoments.MoodsMomentObject
+import com.envoyz.riff.data.model.searchResult.songs.Artist
 
 fun parseMoodsMomentObject(data: BrowseResponse?): MoodsMomentObject? {
     if (data != null){
@@ -112,7 +112,7 @@ fun parseGenreObject(data: BrowseResponse?): GenreObject? {
                         item.musicCarouselShelfRenderer?.header?.musicCarouselShelfBasicHeaderRenderer?.title?.runs?.get(
                             0
                         )?.text
-                    val listContent: MutableList<com.maxrave.simpmusic.data.model.explore.mood.genre.Content> = mutableListOf()
+                    val listContent: MutableList<com.envoyz.riff.data.model.explore.mood.genre.Content> = mutableListOf()
                     if (!contents.isNullOrEmpty()) {
                         for (content in contents) {
                             if (content.musicResponsiveListItemRenderer != null) {
@@ -144,7 +144,7 @@ fun parseGenreObject(data: BrowseResponse?): GenreObject? {
                                 val playlistBrowseId =
                                     content.musicTwoRowItemRenderer?.navigationEndpoint?.browseEndpoint?.browseId
                                 listContent.add(
-                                    com.maxrave.simpmusic.data.model.explore.mood.genre.Content(
+                                    com.envoyz.riff.data.model.explore.mood.genre.Content(
                                         playlistBrowseId = playlistBrowseId ?: "",
                                         thumbnail = thumbnails ?: listOf(),
                                         title = Title(
@@ -162,7 +162,7 @@ fun parseGenreObject(data: BrowseResponse?): GenreObject? {
                     val contents = item.gridRenderer?.items
                     val header =
                         item.gridRenderer?.header?.gridHeaderRenderer?.title?.runs?.get(0)?.text
-                    val listContent: MutableList<com.maxrave.simpmusic.data.model.explore.mood.genre.Content> = mutableListOf()
+                    val listContent: MutableList<com.envoyz.riff.data.model.explore.mood.genre.Content> = mutableListOf()
                     if (!contents.isNullOrEmpty()) {
                         for (content in contents) {
                             if (content.musicTwoRowItemRenderer != null) {
@@ -180,7 +180,7 @@ fun parseGenreObject(data: BrowseResponse?): GenreObject? {
                                     content.musicTwoRowItemRenderer?.title?.runs?.get(0)?.text
                                 val playlistBrowseId = content.musicTwoRowItemRenderer?.navigationEndpoint?.browseEndpoint?.browseId
                                 listContent.add(
-                                    com.maxrave.simpmusic.data.model.explore.mood.genre.Content(
+                                    com.envoyz.riff.data.model.explore.mood.genre.Content(
                                         playlistBrowseId = playlistBrowseId ?: "",
                                         thumbnail = thumbnails ?: listOf(),
                                         title = Title(

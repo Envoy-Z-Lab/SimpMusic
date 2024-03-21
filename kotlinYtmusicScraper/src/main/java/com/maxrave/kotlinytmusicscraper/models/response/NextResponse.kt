@@ -1,9 +1,9 @@
-package com.maxrave.kotlinytmusicscraper.models.response
+package com.envoyz.kotlinytmusicscraper.models.response
 
-import com.maxrave.kotlinytmusicscraper.models.NavigationEndpoint
-import com.maxrave.kotlinytmusicscraper.models.PlaylistPanelRenderer
-import com.maxrave.kotlinytmusicscraper.models.Tabs
-import com.maxrave.kotlinytmusicscraper.models.youtube.data.YouTubeDataPage
+import com.envoyz.kotlinytmusicscraper.models.NavigationEndpoint
+import com.envoyz.kotlinytmusicscraper.models.PlaylistPanelRenderer
+import com.envoyz.kotlinytmusicscraper.models.Tabs
+import com.envoyz.kotlinytmusicscraper.models.youtube.data.YouTubeDataPage
 import kotlinx.serialization.Serializable
 
 @Serializable

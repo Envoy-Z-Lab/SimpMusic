@@ -1,4 +1,4 @@
-package com.maxrave.kotlinytmusicscraper
+package com.envoyz.kotlinytmusicscraper
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

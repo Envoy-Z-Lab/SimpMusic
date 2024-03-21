@@ -1,6 +1,6 @@
-package com.maxrave.simpmusic.data.model.explore.mood.genre
+package com.envoyz.riff.data.model.explore.mood.genre
 
-import com.maxrave.simpmusic.data.model.searchResult.songs.Artist
+import com.envoyz.riff.data.model.searchResult.songs.Artist
 
 data class ItemsSong(
     val title: String,

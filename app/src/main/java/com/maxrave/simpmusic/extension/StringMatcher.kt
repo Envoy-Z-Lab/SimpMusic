@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.extension
+package com.envoyz.riff.extension
 
 fun levenshtein(lhs : CharSequence, rhs : CharSequence) : Int {
     val lhsLength = lhs.length

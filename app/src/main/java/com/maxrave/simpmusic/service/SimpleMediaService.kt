@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.service
+package com.envoyz.riff.service
 
 
 import android.app.PendingIntent
@@ -35,16 +35,16 @@ import androidx.media3.session.MediaLibraryService
 import androidx.media3.session.MediaSession
 import androidx.media3.session.SessionToken
 import com.google.common.util.concurrent.MoreExecutors
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.common.MEDIA_NOTIFICATION
-import com.maxrave.simpmusic.common.QUALITY
-import com.maxrave.simpmusic.data.dataStore.DataStoreManager
-import com.maxrave.simpmusic.data.repository.MainRepository
-import com.maxrave.simpmusic.di.DownloadCache
-import com.maxrave.simpmusic.di.PlayerCache
-import com.maxrave.simpmusic.service.test.CoilBitmapLoader
-import com.maxrave.simpmusic.ui.MainActivity
-import com.maxrave.simpmusic.ui.widget.BasicWidget
+import com.envoyz.riff.R
+import com.envoyz.riff.common.MEDIA_NOTIFICATION
+import com.envoyz.riff.common.QUALITY
+import com.envoyz.riff.data.dataStore.DataStoreManager
+import com.envoyz.riff.data.repository.MainRepository
+import com.envoyz.riff.di.DownloadCache
+import com.envoyz.riff.di.PlayerCache
+import com.envoyz.riff.service.test.CoilBitmapLoader
+import com.envoyz.riff.ui.MainActivity
+import com.envoyz.riff.ui.widget.BasicWidget
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.cancellable

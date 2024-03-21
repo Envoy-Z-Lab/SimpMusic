@@ -1,12 +1,12 @@
-package com.maxrave.kotlinytmusicscraper.pages
+package com.envoyz.kotlinytmusicscraper.pages
 
-import com.maxrave.kotlinytmusicscraper.models.Album
-import com.maxrave.kotlinytmusicscraper.models.Artist
-import com.maxrave.kotlinytmusicscraper.models.MusicResponsiveListItemRenderer
-import com.maxrave.kotlinytmusicscraper.models.PlaylistItem
-import com.maxrave.kotlinytmusicscraper.models.SongItem
-import com.maxrave.kotlinytmusicscraper.models.oddElements
-import com.maxrave.kotlinytmusicscraper.utils.parseTime
+import com.envoyz.kotlinytmusicscraper.models.Album
+import com.envoyz.kotlinytmusicscraper.models.Artist
+import com.envoyz.kotlinytmusicscraper.models.MusicResponsiveListItemRenderer
+import com.envoyz.kotlinytmusicscraper.models.PlaylistItem
+import com.envoyz.kotlinytmusicscraper.models.SongItem
+import com.envoyz.kotlinytmusicscraper.models.oddElements
+import com.envoyz.kotlinytmusicscraper.utils.parseTime
 
 data class PlaylistPage(
     val playlist: PlaylistItem,

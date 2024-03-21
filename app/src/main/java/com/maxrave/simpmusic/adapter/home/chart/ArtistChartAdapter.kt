@@ -1,13 +1,13 @@
-package com.maxrave.simpmusic.adapter.home.chart
+package com.envoyz.riff.adapter.home.chart
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.data.model.home.chart.ItemArtist
-import com.maxrave.simpmusic.databinding.ItemArtistChartBinding
+import com.envoyz.riff.R
+import com.envoyz.riff.data.model.home.chart.ItemArtist
+import com.envoyz.riff.databinding.ItemArtistChartBinding
 
 class ArtistChartAdapter(var listArtist: ArrayList<ItemArtist>, val context: Context) : RecyclerView.Adapter<ArtistChartAdapter.ViewHolder>() {
     interface OnArtistItemClickListener {

@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.service
+package com.envoyz.riff.service
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -23,15 +23,15 @@ import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.session.CommandButton
 import androidx.media3.session.MediaSession
 import androidx.media3.session.SessionCommand
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.common.MEDIA_CUSTOM_COMMAND
-import com.maxrave.simpmusic.data.dataStore.DataStoreManager
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.data.model.searchResult.songs.Artist
-import com.maxrave.simpmusic.data.queue.Queue
-import com.maxrave.simpmusic.data.repository.MainRepository
-import com.maxrave.simpmusic.extension.connectArtists
-import com.maxrave.simpmusic.extension.toListName
+import com.envoyz.riff.R
+import com.envoyz.riff.common.MEDIA_CUSTOM_COMMAND
+import com.envoyz.riff.data.dataStore.DataStoreManager
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.data.model.searchResult.songs.Artist
+import com.envoyz.riff.data.queue.Queue
+import com.envoyz.riff.data.repository.MainRepository
+import com.envoyz.riff.extension.connectArtists
+import com.envoyz.riff.extension.toListName
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

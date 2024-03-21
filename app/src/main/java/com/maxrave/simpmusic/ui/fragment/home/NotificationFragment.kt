@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.fragment.home
+package com.envoyz.riff.ui.fragment.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,9 +9,9 @@ import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.maxrave.simpmusic.ui.screen.home.NotificationScreen
-import com.maxrave.simpmusic.ui.theme.AppTheme
-import com.maxrave.simpmusic.viewModel.NotificationViewModel
+import com.envoyz.riff.ui.screen.home.NotificationScreen
+import com.envoyz.riff.ui.theme.AppTheme
+import com.envoyz.riff.viewModel.NotificationViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

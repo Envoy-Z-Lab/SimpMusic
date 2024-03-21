@@ -1,17 +1,17 @@
-package com.maxrave.simpmusic.data.parser
+package com.envoyz.riff.data.parser
 
 import android.util.Log
-import com.maxrave.kotlinytmusicscraper.models.MusicCarouselShelfRenderer
-import com.maxrave.kotlinytmusicscraper.models.SectionListRenderer
-import com.maxrave.kotlinytmusicscraper.models.oddElements
-import com.maxrave.simpmusic.data.model.browse.album.Track
-import com.maxrave.simpmusic.data.model.home.chart.Artists
-import com.maxrave.simpmusic.data.model.home.chart.Chart
-import com.maxrave.simpmusic.data.model.home.chart.ItemArtist
-import com.maxrave.simpmusic.data.model.home.chart.ItemVideo
-import com.maxrave.simpmusic.data.model.home.chart.Videos
-import com.maxrave.simpmusic.data.model.searchResult.songs.Album
-import com.maxrave.simpmusic.data.model.searchResult.songs.Artist
+import com.envoyz.kotlinytmusicscraper.models.MusicCarouselShelfRenderer
+import com.envoyz.kotlinytmusicscraper.models.SectionListRenderer
+import com.envoyz.kotlinytmusicscraper.models.oddElements
+import com.envoyz.riff.data.model.browse.album.Track
+import com.envoyz.riff.data.model.home.chart.Artists
+import com.envoyz.riff.data.model.home.chart.Chart
+import com.envoyz.riff.data.model.home.chart.ItemArtist
+import com.envoyz.riff.data.model.home.chart.ItemVideo
+import com.envoyz.riff.data.model.home.chart.Videos
+import com.envoyz.riff.data.model.searchResult.songs.Album
+import com.envoyz.riff.data.model.searchResult.songs.Artist
 
 fun parseChart(data: SectionListRenderer?): Chart? {
     if (data?.contents != null) {

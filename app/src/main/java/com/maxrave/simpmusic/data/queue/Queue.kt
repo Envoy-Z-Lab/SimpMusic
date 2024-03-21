@@ -1,7 +1,7 @@
-package com.maxrave.simpmusic.data.queue
+package com.envoyz.riff.data.queue
 
 import android.util.Log
-import com.maxrave.simpmusic.data.model.browse.album.Track
+import com.envoyz.riff.data.model.browse.album.Track
 
 object Queue {
     private var queue: ArrayList<Track> = ArrayList()

@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.screen.home
+package com.envoyz.riff.ui.screen.home
 
 import android.content.Context
 import android.os.Bundle
@@ -44,15 +44,15 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.wear.compose.material3.ripple
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.data.db.entities.NotificationEntity
-import com.maxrave.simpmusic.extension.formatTimeAgo
-import com.maxrave.simpmusic.extension.navigateSafe
-import com.maxrave.simpmusic.ui.component.CenterLoadingBox
-import com.maxrave.simpmusic.ui.component.EndOfPage
-import com.maxrave.simpmusic.ui.component.RippleIconButton
-import com.maxrave.simpmusic.ui.theme.typo
-import com.maxrave.simpmusic.viewModel.NotificationViewModel
+import com.envoyz.riff.R
+import com.envoyz.riff.data.db.entities.NotificationEntity
+import com.envoyz.riff.extension.formatTimeAgo
+import com.envoyz.riff.extension.navigateSafe
+import com.envoyz.riff.ui.component.CenterLoadingBox
+import com.envoyz.riff.ui.component.EndOfPage
+import com.envoyz.riff.ui.component.RippleIconButton
+import com.envoyz.riff.ui.theme.typo
+import com.envoyz.riff.viewModel.NotificationViewModel
 import com.skydoves.landscapist.ImageOptions
 import com.skydoves.landscapist.animation.crossfade.CrossfadePlugin
 import com.skydoves.landscapist.coil.CoilImage

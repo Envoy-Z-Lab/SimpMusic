@@ -1,4 +1,4 @@
-package com.maxrave.simpmusic.ui.fragment.library
+package com.envoyz.riff.ui.fragment.library
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,12 +8,12 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.maxrave.simpmusic.R
-import com.maxrave.simpmusic.adapter.search.SearchItemAdapter
-import com.maxrave.simpmusic.data.db.entities.ArtistEntity
-import com.maxrave.simpmusic.databinding.FragmentFollowedBinding
-import com.maxrave.simpmusic.extension.navigateSafe
-import com.maxrave.simpmusic.viewModel.FollowedViewModel
+import com.envoyz.riff.R
+import com.envoyz.riff.adapter.search.SearchItemAdapter
+import com.envoyz.riff.data.db.entities.ArtistEntity
+import com.envoyz.riff.databinding.FragmentFollowedBinding
+import com.envoyz.riff.extension.navigateSafe
+import com.envoyz.riff.viewModel.FollowedViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import dev.chrisbanes.insetter.applyInsetter
 

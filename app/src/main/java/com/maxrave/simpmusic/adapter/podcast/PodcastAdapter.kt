@@ -1,12 +1,12 @@
-package com.maxrave.simpmusic.adapter.podcast
+package com.envoyz.riff.adapter.podcast
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.maxrave.simpmusic.data.model.podcast.PodcastBrowse
-import com.maxrave.simpmusic.databinding.ItemPodcastBinding
+import com.envoyz.riff.data.model.podcast.PodcastBrowse
+import com.envoyz.riff.databinding.ItemPodcastBinding
 
 class PodcastAdapter(private var podcastList: ArrayList<PodcastBrowse.EpisodeItem>) :
     RecyclerView.Adapter<PodcastAdapter.ViewHolder>() {

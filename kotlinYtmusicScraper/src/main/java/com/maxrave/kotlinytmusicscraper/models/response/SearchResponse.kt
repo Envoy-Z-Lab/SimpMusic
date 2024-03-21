@@ -1,9 +1,9 @@
-package com.maxrave.kotlinytmusicscraper.models.response
+package com.envoyz.kotlinytmusicscraper.models.response
 
-import com.maxrave.kotlinytmusicscraper.models.Continuation
-import com.maxrave.kotlinytmusicscraper.models.MusicResponsiveListItemRenderer
-import com.maxrave.kotlinytmusicscraper.models.MusicShelfRenderer
-import com.maxrave.kotlinytmusicscraper.models.Tabs
+import com.envoyz.kotlinytmusicscraper.models.Continuation
+import com.envoyz.kotlinytmusicscraper.models.MusicResponsiveListItemRenderer
+import com.envoyz.kotlinytmusicscraper.models.MusicShelfRenderer
+import com.envoyz.kotlinytmusicscraper.models.Tabs
 import kotlinx.serialization.Serializable
 
 @Serializable

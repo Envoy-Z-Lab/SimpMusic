@@ -1,4 +1,4 @@
-package com.maxrave.kotlinytmusicscraper.models.simpmusic
+package com.envoyz.kotlinytmusicscraper.models.riff
 
 
 import kotlinx.serialization.SerialName

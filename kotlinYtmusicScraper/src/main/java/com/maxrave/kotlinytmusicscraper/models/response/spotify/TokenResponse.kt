@@ -1,4 +1,4 @@
-package com.maxrave.kotlinytmusicscraper.models.response.spotify
+package com.envoyz.kotlinytmusicscraper.models.response.spotify
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
