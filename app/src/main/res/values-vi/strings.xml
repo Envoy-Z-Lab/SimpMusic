@@ -261,7 +261,7 @@
     <string name="unlimited">Không giới hạn</string>
     <string name="third_party_libraries">Thư viện bên thứ ba</string>
     <string name="description_and_licenses">Mô tả và giấy phép</string>
-    <string name="author">Tác giả</string>
+    <string name="author">Được làm bởi</string>
     <string name="other_app">Ứng dụng khác</string>
     <string name="database">Cơ sở dữ liệu của ứng dụng</string>
     <string name="free_space">Còn trống</string>

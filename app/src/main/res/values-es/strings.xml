@@ -261,7 +261,7 @@
     <string name="unlimited">Ilimitado</string>
     <string name="third_party_libraries">Bibliotecas de terceros</string>
     <string name="description_and_licenses">Descripción y licencias</string>
-    <string name="author">Autor</string>
+    <string name="author">Feito por</string>
     <string name="other_app">Otra aplicación</string>
     <string name="database">Base de datos de la aplicación</string>
     <string name="free_space">Espacio libre</string>

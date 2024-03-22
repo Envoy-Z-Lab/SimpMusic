@@ -261,7 +261,7 @@
     <string name="unlimited">Rajoittamaton</string>
     <string name="third_party_libraries">Kolmansien osapuolten kirjastot</string>
     <string name="description_and_licenses">Kuvaus ja lisenssit</string>
-    <string name="author">Tekijä</string>
+    <string name="author">Tehnyt</string>
     <string name="other_app">Muut sovellukset</string>
     <string name="database">Sovellustietokanta</string>
     <string name="free_space">Vapaata tilaa</string>
