@@ -1366,22 +1366,6 @@
                     android:focusable="true"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
-                    <TextView
-                        android:textSize = "16sp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@android:color/white"
-                        android:text = "@string/buy_me_a_coffee">
-
-                    </TextView>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="16sp"
-                        android:id="@+id/tvPaypal"
-                        android:text="@string/paypal">
-
-                    </TextView>
 
                 </LinearLayout>
                 <LinearLayout

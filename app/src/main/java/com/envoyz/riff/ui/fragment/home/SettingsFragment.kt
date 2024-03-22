@@ -592,13 +592,6 @@ class SettingsFragment : Fragment() {
             )
             startActivity(urlIntent)
         }
-        binding.btDonate.setOnClickListener {
-            val urlIntent = Intent(
-                Intent.ACTION_VIEW,
-                Uri.parse("https://paypal.me/envoyzofficial")
-            )
-            startActivity(urlIntent)
-        }
         binding.btStoragePlayerCache.setOnClickListener {
             val dialog = MaterialAlertDialogBuilder(requireContext())
                 .setTitle(getString(R.string.clear_player_cache))

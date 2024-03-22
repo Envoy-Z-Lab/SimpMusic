@@ -48,13 +48,6 @@ class CreditFragment : Fragment() {
             )
             startActivity(urlIntent)
         }
-        binding.btBuyMeACoffee.setOnClickListener {
-            val urlIntent = Intent(
-                Intent.ACTION_VIEW,
-                Uri.parse("https://www.buymeacoffee.com/envoyz")
-            )
-            startActivity(urlIntent)
-        }
         binding.topAppBar.setNavigationOnClickListener {
             findNavController().popBackStack()
         }

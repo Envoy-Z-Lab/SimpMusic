@@ -118,8 +118,6 @@
     <string name="version">Version</string>
     <string name="github">Github</string>
     <string name="envoyz">Ꮛɳѵoყ-Z | Zaid Sultan</string>
-    <string name="buy_me_a_coffee">Buy me a coffee</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Title</string>
     <string name="album">Album</string>
     <string name="youtube_url">YouTube URL</string>
@@ -271,7 +269,7 @@
     <string name="added_date">Added date</string>
     <string name="credit_app">A simple music app using YouTube Music for backend \n\nRiff is a project to stream music from YouTube and YouTube Music without ads and tracking. Riff provides many features:\n\n - Streaming music \n - Synced lyrics\n - Personalize data\n - etc… \n\nRiff is always free and no ads\n\nBuild with ❤️Envoy-Z</string>
     <string name="issue_tracker">Issue Tracker</string>
-    <string name="copyright" translatable="false">©2023 Tuan Minh Nguyen Duc (Envoy-Z-Lab)</string>
+    <string name="copyright" translatable="false">©2024 Zaid Sultan (Envoy-Z-Lab)</string>
     <string name="featured_playlists">Featured Playlists</string>
     <string name="podcasts" translatable="false">Podcasts</string>
     <string name="featured_inArtist">Featured on</string>
