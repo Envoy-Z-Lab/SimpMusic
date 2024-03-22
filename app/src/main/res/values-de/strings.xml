@@ -268,7 +268,7 @@
     <string name="suggest">Anregung</string>
     <string name="reload">Neu Laden</string>
     <string name="added_date">Datum hinzugefügt</string>
-    <string name="credit_app">Eine einfache Musik-App mit YouTube Music als Backend \n\nRiff ist ein Open-Source-Projekt zum Streamen von Musik von YouTube und YouTube Music ohne Werbung und Tracking. Riff bietet viele Funktionen:\n\n - Musik streamen \n - Synchronisierte Liedtexte\n - Daten personalisieren\n - etc… \n\nRiff ist immer kostenlos und ohne Werbung\n\nErstellen Sie mit ❤️Envoy-Z</string>
+    <string name="credit_app">Eine einfache Musik-App mit YouTube Music als Backend \n\nRiff ist ein projekt zum Streamen von Musik von YouTube und YouTube Music ohne Werbung und Tracking. Riff bietet viele Funktionen:\n\n - Musik streamen \n - Synchronisierte Liedtexte\n - Daten personalisieren\n - etc… \n\nRiff ist immer kostenlos und ohne Werbung\n\nErstellen Sie mit ❤️Envoy-Z</string>
     <string name="issue_tracker">Issue-Tracker</string>
     <string name="featured_playlists">Empfohlene Playlists</string>
     <string name="featured_inArtist">Zu hören in</string>
