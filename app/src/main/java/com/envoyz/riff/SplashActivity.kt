@@ -1,10 +1,16 @@
 package com.envoyz.riff
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import android.os.Looper.getMainLooper
+import android.view.WindowManager
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.envoyz.riff.ui.MainActivity
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,11 +23,12 @@ class SplashActivity : AppCompatActivity() {
             insets
         }
 
-        window.setflags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+        window.setFlags(
+            WindowManager.LayoutParams.FLAG_FULLSCREEN,
         WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
-        Handler(looper.getMainLooper).postDelayed({
-            val intent = Intent(this.MainActivity::class.java)
+        Handler(Looper.getMainLooper()).postDelayed({
+            val intent = Intent(this,MainActivity::class.java)
             startActivity(intent)
             finish()
         },3000)
