@@ -161,6 +161,7 @@ android {
 dependencies {
 
     implementation("androidx.wear.compose:compose-material3:1.0.0-alpha19")
+    implementation("androidx.activity:activity:1.8.0")
     //Compose
     val composeBom = platform("androidx.compose:compose-bom:2024.02.02")
     implementation(composeBom)

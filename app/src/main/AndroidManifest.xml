@@ -53,6 +53,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Riff"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <action android:name="android.intent.action.VIEW" />
+            <action android:name="android.intent.action.MUSIC_PLAYER" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+            <category android:name="android.intent.category.APP_MUSIC" />
+            <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <receiver
             android:name=".ui.widget.BasicWidget"
             android:exported="false">
@@ -68,17 +81,8 @@
         <activity
             android:name=".ui.MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:exported="true"
+            android:exported="false"
             android:launchMode="singleTask">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.VIEW" />
-                <action android:name="android.intent.action.MUSIC_PLAYER" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-                <category android:name="android.intent.category.APP_MUSIC" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
 
             <!-- Youtube filter -->
             <intent-filter>
